@@ -3,7 +3,7 @@
 <head>
   {% include head.html %}
 </head>
-<body class="layout-{{ page.layout }} page-{{ page.url | slugify | default: 'home' }}">
+<body id="{{ page.body_id | default: 'collection-6790128570d97e6893e40ca7' }}" class="{{ page.body_class | default: 'header-width-full primary-button-style-solid primary-button-shape-square secondary-button-style-outline native-currency-code-usd collection-type-page homepage mobile-style-available sqs-seven-one' }}" tabindex="-1">
   {% if site.google_tag_manager_id %}
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google_tag_manager_id }}"
@@ -11,13 +11,19 @@
   <!-- End Google Tag Manager (noscript) -->
   {% endif %}
 
-  {% include header.html %}
+  <div id="siteWrapper" class="clearfix site-wrapper">
+    {% include header.html %}
 
-  <main id="main-content" class="main-content">
+    {% if page.layout == 'post' or page.url contains '/blog/' %}
+    <main id="page" class="container blog-page-container" role="main">
+      {{ content }}
+    </main>
+    {% else %}
     {{ content }}
-  </main>
+    {% endif %}
 
-  {% include footer.html %}
+    {% include footer.html %}
+  </div>
 
   <script src="/assets/js/main.js"></script>
 </body>

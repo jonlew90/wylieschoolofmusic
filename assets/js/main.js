@@ -1,50 +1,85 @@
-// Mobile Navigation Toggle
+// Navigation & Interactive Enhancements
 document.addEventListener('DOMContentLoaded', () => {
-  const toggleBtn = document.querySelector('.mobile-nav-toggle');
-  const siteNav = document.querySelector('.site-nav');
+  // 1. Mobile Burger Toggle for Squarespace Header
+  const burgerBtns = document.querySelectorAll('.header-burger-btn, [data-test="header-burger"]');
+  const body = document.body;
 
-  if (toggleBtn && siteNav) {
-    toggleBtn.addEventListener('click', (e) => {
+  burgerBtns.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
       e.stopPropagation();
-      const isOpen = siteNav.classList.toggle('is-open');
-      toggleBtn.setAttribute('aria-expanded', isOpen);
+      const isOpen = body.classList.toggle('header--menu-open');
+      btn.classList.toggle('burger--active', isOpen);
+      btn.setAttribute('aria-expanded', isOpen);
     });
+  });
 
-    // Close when clicking outside
-    document.addEventListener('click', (e) => {
-      if (siteNav.classList.contains('is-open') && !siteNav.contains(e.target) && !toggleBtn.contains(e.target)) {
-        siteNav.classList.remove('is-open');
-        toggleBtn.setAttribute('aria-expanded', 'false');
+  // Close mobile menu when clicking outside or clicking any nav link
+  document.addEventListener('click', (e) => {
+    if (body.classList.contains('header--menu-open')) {
+      const menu = document.querySelector('.header-menu');
+      const isClickInsideBurger = Array.from(burgerBtns).some(b => b.contains(e.target));
+      if (menu && !menu.contains(e.target) && !isClickInsideBurger) {
+        body.classList.remove('header--menu-open');
+        burgerBtns.forEach(b => {
+          b.classList.remove('burger--active');
+          b.setAttribute('aria-expanded', 'false');
+        });
       }
-    });
+    }
+  });
 
-    // Close when clicking nav link
-    siteNav.querySelectorAll('.nav-link:not(.dropdown-toggle), .dropdown-link').forEach(link => {
-      link.addEventListener('click', () => {
-        siteNav.classList.remove('is-open');
-        toggleBtn.setAttribute('aria-expanded', 'false');
+  document.querySelectorAll('.header-menu-nav-item a, .header-menu-nav-folder-item a').forEach(link => {
+    link.addEventListener('click', () => {
+      body.classList.remove('header--menu-open');
+      burgerBtns.forEach(b => {
+        b.classList.remove('burger--active');
+        b.setAttribute('aria-expanded', 'false');
       });
     });
-  }
+  });
 
-  // Handle mobile dropdown toggle click
-  const dropdownToggle = document.querySelector('.dropdown-toggle');
-  if (dropdownToggle && window.innerWidth <= 991) {
-    dropdownToggle.addEventListener('click', (e) => {
+  // Mobile menu folder expansion
+  document.querySelectorAll('.header-menu-nav-item a[data-folder-id]').forEach(folderTitle => {
+    folderTitle.addEventListener('click', (e) => {
       e.preventDefault();
-      const parent = dropdownToggle.closest('.has-dropdown');
-      parent.classList.toggle('mobile-expanded');
+      const folderId = folderTitle.getAttribute('data-folder-id');
+      const targetFolder = document.querySelector(`.header-menu-nav-folder[data-folder="${folderId}"]`);
+      if (targetFolder) {
+        targetFolder.classList.toggle('header-menu-nav-folder--active');
+      }
     });
-  }
+  });
 
-  // Form submit state
-  const forms = document.querySelectorAll('.site-form');
+  // 2. Desktop Dropdown Toggle on Hover & Focus
+  const desktopFolderTitles = document.querySelectorAll('.header-nav-folder-title');
+  desktopFolderTitles.forEach(title => {
+    const parent = title.closest('.header-nav-item--folder');
+    if (!parent) return;
+
+    parent.addEventListener('mouseenter', () => {
+      parent.classList.add('has-subnav');
+      title.setAttribute('aria-expanded', 'true');
+    });
+
+    parent.addEventListener('mouseleave', () => {
+      parent.classList.remove('has-subnav');
+      title.setAttribute('aria-expanded', 'false');
+    });
+  });
+
+  // 3. Form submit state
+  const forms = document.querySelectorAll('form');
   forms.forEach(form => {
     form.addEventListener('submit', () => {
-      const btn = form.querySelector('button[type="submit"]');
+      const btn = form.querySelector('button[type="submit"], input[type="submit"]');
       if (btn) {
         btn.disabled = true;
-        btn.textContent = 'Submitting...';
+        if (btn.tagName === 'INPUT') {
+          btn.value = 'Submitting...';
+        } else {
+          btn.textContent = 'Submitting...';
+        }
       }
     });
   });

@@ -1,63 +1,699 @@
-<footer class="site-footer">
-  <div class="footer-container">
-    <div class="footer-grid">
-      <!-- Col 1: Brand & Contact -->
-      <div class="footer-col footer-about">
-        <h3 class="footer-heading">{{ site.title }}</h3>
-        <p class="footer-tagline">{{ site.tagline }}</p>
-        <div class="footer-contact-info">
-          <p><svg class="footer-icon" viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg> {{ site.address }}, {{ site.city_state_zip }}</p>
-          <p><svg class="footer-icon" viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg> <a href="tel:{{ site.phone_clean }}">{{ site.phone }}</a></p>
-          <p><svg class="footer-icon" viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg> <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-        </div>
-      </div>
+<footer class="sections" id="footer-sections" data-footer-sections>
+  
+  
+  
+  
+  
+  
+    
+    
 
-      <!-- Col 2: Music Lessons -->
-      <div class="footer-col">
-        <h4 class="footer-col-title">Music Lessons</h4>
-        <ul class="footer-links">
-          <li><a href="/guitar/">Guitar Lessons</a></li>
-          <li><a href="/piano/">Piano Lessons</a></li>
-          <li><a href="/drums/">Drum Lessons</a></li>
-          <li><a href="/bass/">Bass Lessons</a></li>
-          <li><a href="/voice/">Voice Lessons</a></li>
-          <li><a href="/violin/">Violin Lessons</a></li>
-        </ul>
-      </div>
 
-      <!-- Col 3: Programs & School -->
-      <div class="footer-col">
-        <h4 class="footer-col-title">School & Programs</h4>
-        <ul class="footer-links">
-          <li><a href="/bands/">Rock Shop Band Program</a></li>
-          <li><a href="/our-story/">Our Story</a></li>
-          <li><a href="/teachers/">Meet the Teachers</a></li>
-          <li><a href="/registration-form/">Student Registration</a></li>
-          <li><a href="/blog/">Tips & Articles Blog</a></li>
-          <li><a href="/contact/">Contact Us</a></li>
-        </ul>
-      </div>
+  
+  
 
-      <!-- Col 4: Connect & Social -->
-      <div class="footer-col">
-        <h4 class="footer-col-title">Follow Us</h4>
-        <p class="footer-social-text">Stay updated on recitals, open mics, and student performances!</p>
-        <div class="footer-social-links">
-          <a href="{{ site.social.instagram }}" target="_blank" rel="noopener" aria-label="Instagram" class="social-icon">
-            <svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
-          </a>
-          <a href="{{ site.social.facebook }}" target="_blank" rel="noopener" aria-label="Facebook" class="social-icon">
-            <svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/></svg>
-          </a>
-          <a href="{{ site.social.youtube }}" target="_blank" rel="noopener" aria-label="YouTube" class="social-icon">
-            <svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
-          </a>
-        </div>
-      </div>
-    </div>
 
-    <div class="footer-bottom">
-      <p class="copyright">&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+
+
+
+
+
+
+
+
+
+<section
+  data-test="page-section"
+  
+  data-section-theme="white"
+  class='page-section 
+    
+      full-bleed-section
+      layout-engine-section
+    
+    background-width--full-bleed
+    
+      
+        section-height--custom
+      
+    
+    
+      content-width--wide
+    
+    horizontal-alignment--center
+    vertical-alignment--middle
+    
+      
+    
+    
+    white'
+  
+  data-section-id="679012581a9b3d79fdb90a2a"
+  
+  data-controller="SectionWrapperController"
+  data-current-styles="{
+&quot;imageOverlayOpacity&quot;: 0.15,
+&quot;backgroundWidth&quot;: &quot;background-width--full-bleed&quot;,
+&quot;sectionHeight&quot;: &quot;section-height--custom&quot;,
+&quot;customSectionHeight&quot;: 0,
+&quot;horizontalAlignment&quot;: &quot;horizontal-alignment--center&quot;,
+&quot;verticalAlignment&quot;: &quot;vertical-alignment--middle&quot;,
+&quot;contentWidth&quot;: &quot;content-width--wide&quot;,
+&quot;customContentWidth&quot;: 50,
+&quot;sectionTheme&quot;: &quot;white&quot;,
+&quot;sectionAnimation&quot;: &quot;none&quot;,
+&quot;backgroundMode&quot;: &quot;image&quot;
+}"
+  data-current-context="{
+&quot;video&quot;: {
+&quot;playbackSpeed&quot;: 0.5,
+&quot;filter&quot;: 1,
+&quot;filterStrength&quot;: 0,
+&quot;zoom&quot;: 0,
+&quot;videoSourceProvider&quot;: &quot;none&quot;
+},
+&quot;backgroundImageId&quot;: null,
+&quot;backgroundMediaEffect&quot;: {
+&quot;type&quot;: &quot;none&quot;
+},
+&quot;divider&quot;: {
+&quot;enabled&quot;: false,
+&quot;type&quot;: &quot;none&quot;,
+&quot;width&quot;: {
+&quot;unit&quot;: &quot;vw&quot;,
+&quot;value&quot;: 100.0
+},
+&quot;height&quot;: {
+&quot;unit&quot;: &quot;vw&quot;,
+&quot;value&quot;: 6.0
+},
+&quot;isFlipX&quot;: false,
+&quot;isFlipY&quot;: true,
+&quot;offset&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 0.0
+},
+&quot;stroke&quot;: {
+&quot;style&quot;: &quot;solid&quot;,
+&quot;color&quot;: {
+&quot;type&quot;: &quot;THEME_COLOR&quot;
+},
+&quot;thickness&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 6.0
+},
+&quot;dashLength&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 5.0
+},
+&quot;gapLength&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 15.0
+},
+&quot;linecap&quot;: &quot;square&quot;
+}
+},
+&quot;typeName&quot;: &quot;page&quot;
+}"
+  data-animation="none"
+  data-fluid-engine-section
+   
+  
+  
+  
+  
+  
+
+
+  data-sqsp-section="fluid-engine"
+
+
+>
+  <div
+    class="section-border"
+    
+  >
+    <div class="section-background">
+    
+      
+    
     </div>
   </div>
+  <div
+    class='content-wrapper'
+    style='
+      
+        
+          
+          padding-top: calc(0vmax / 10); padding-bottom: calc(0vmax / 10);
+        
+      
+    '
+  >
+    <div
+      class="content"
+      
+    >
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <div data-fluid-engine="true"><style>
+
+.fe-679012581a9b3d79fdb90a29 {
+  --grid-gutter: calc(var(--sqs-mobile-site-gutter, 6vw) - 11.0px);
+  --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (11.0px * (8 - 1)) ) / 8 );
+
+  display: grid;
+  position: relative;
+  grid-area: 1/1/-1/-1;
+  grid-template-rows: repeat(9,minmax(24px, auto));
+  grid-template-columns:
+    minmax(var(--grid-gutter), 1fr)
+    repeat(8, minmax(0, var(--cell-max-width)))
+    minmax(var(--grid-gutter), 1fr);
+  row-gap: 16.0px;
+  column-gap: 11.0px;
+  overflow-x: hidden;
+  overflow-x: clip;
+}
+
+@media (min-width: 768px) {
+  .background-width--inset .fe-679012581a9b3d79fdb90a29 {
+    --inset-padding: calc(var(--sqs-site-gutter) * 2);
+  }
+
+  .fe-679012581a9b3d79fdb90a29 {
+    --grid-gutter: calc(var(--sqs-site-gutter, 4vw) - 11.0px);
+    --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (11.0px * (24 - 1)) ) / 24 );
+    --inset-padding: 0vw;
+
+    --row-height-scaling-factor: 0.0215;
+    --container-width: min(var(--sqs-site-max-width, 1500px), calc(100vw - var(--sqs-site-gutter, 4vw) * 2 - var(--inset-padding) ));
+
+    grid-template-rows: repeat(5,minmax(calc(var(--container-width) * var(--row-height-scaling-factor)), auto));
+    grid-template-columns:
+      minmax(var(--grid-gutter), 1fr)
+      repeat(24, minmax(0, var(--cell-max-width)))
+      minmax(var(--grid-gutter), 1fr);
+  }
+}
+
+
+  .fe-block-2461c3e7ed3519467a3a {
+    grid-area: 5/2/9/6;
+    z-index: 3;
+
+    @media (max-width: 767px) {
+      
+      
+    }
+  }
+
+  .fe-block-2461c3e7ed3519467a3a .sqs-block {
+    justify-content: flex-start;
+  }
+
+  .fe-block-2461c3e7ed3519467a3a .sqs-block-alignment-wrapper {
+    align-items: flex-start;
+  }
+
+  @media (min-width: 768px) {
+    .fe-block-2461c3e7ed3519467a3a {
+      grid-area: 2/6/4/12;
+      z-index: 3;
+
+      
+
+      
+    }
+
+    .fe-block-2461c3e7ed3519467a3a .sqs-block {
+      justify-content: flex-end;
+    }
+
+    .fe-block-2461c3e7ed3519467a3a .sqs-block-alignment-wrapper {
+      align-items: flex-end;
+    }
+  }
+
+  .fe-block-045c6b4f19ff3eca352b {
+    grid-area: 5/6/9/10;
+    z-index: 4;
+
+    @media (max-width: 767px) {
+      
+      
+    }
+  }
+
+  .fe-block-045c6b4f19ff3eca352b .sqs-block {
+    justify-content: flex-start;
+  }
+
+  .fe-block-045c6b4f19ff3eca352b .sqs-block-alignment-wrapper {
+    align-items: flex-start;
+  }
+
+  @media (min-width: 768px) {
+    .fe-block-045c6b4f19ff3eca352b {
+      grid-area: 2/16/4/26;
+      z-index: 4;
+
+      
+
+      
+    }
+
+    .fe-block-045c6b4f19ff3eca352b .sqs-block {
+      justify-content: flex-end;
+    }
+
+    .fe-block-045c6b4f19ff3eca352b .sqs-block-alignment-wrapper {
+      align-items: flex-end;
+    }
+  }
+
+  .fe-block-157da4d9aca29c409b34 {
+    grid-area: 2/6/4/10;
+    z-index: 2;
+
+    @media (max-width: 767px) {
+      
+      
+    }
+  }
+
+  .fe-block-157da4d9aca29c409b34 .sqs-block {
+    justify-content: flex-start;
+  }
+
+  .fe-block-157da4d9aca29c409b34 .sqs-block-alignment-wrapper {
+    align-items: flex-start;
+  }
+
+  @media (min-width: 768px) {
+    .fe-block-157da4d9aca29c409b34 {
+      grid-area: 2/12/5/15;
+      z-index: 2;
+
+      
+
+      
+    }
+
+    .fe-block-157da4d9aca29c409b34 .sqs-block {
+      justify-content: center;
+    }
+
+    .fe-block-157da4d9aca29c409b34 .sqs-block-alignment-wrapper {
+      align-items: center;
+    }
+  }
+
+</style><div class="fluid-engine fe-679012581a9b3d79fdb90a29"><div class="fe-block fe-block-2461c3e7ed3519467a3a"><div class="sqs-block website-component-block sqs-block-website-component sqs-block-html html-block" data-block-css="[&quot;https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.html/b6dd483b-9d91-4b82-8888-d9cf0d14fade_947/website.components.html.styles.css&quot;]" data-block-scripts="[&quot;https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.html/b6dd483b-9d91-4b82-8888-d9cf0d14fade_947/website.components.html.visitor.js&quot;]" data-block-type="1337" data-definition-name="website.components.html" data-sqsp-block="text" data-website-component-id="2461c3e7ed3519467a3a" id="block-2461c3e7ed3519467a3a"><div class="sqs-block-content"><div class="sqs-text-block-container">
+  
+  <div class="sqs-html-content" data-sqsp-text-block-content><p class="sqsrte-large" style="white-space:pre-wrap;"><a href="/guitar">Guitar</a>        <a href="/piano">Piano</a>        <a href="/drums">Drums</a>        <a href="/bass">Bass</a></p></div>
+
+
+  
+<style id="container-styles">#block-2461c3e7ed3519467a3a {
+    
+    --stroke-style: none;--stroke-thickness: 6px;
+    
+      
+      
+      
+    
+
+
+
+  }
+
+  #block-2461c3e7ed3519467a3a .sqs-html-content {
+    
+    --tweak-text-block-padding: 6% 6% 6% 6%;
+  --tweak-text-block-padding: initial;
+}
+
+  .fe-block-2461c3e7ed3519467a3a {
+      mix-blend-mode: var(--tweak-text-block-blend
+  );
+      border-radius: var(--tweak-text-block-radius);
+  }
+
+  
+  
+.fe-block-2461c3e7ed3519467a3a {
+      --tweak-text-block-radius: 0px 0px 0px 0px;
+    }
+
+
+  
+  .fe-block-2461c3e7ed3519467a3a {
+      --tweak-text-block-blend
+  : normal;
+    }
+  
+
+  .fe-block-2461c3e7ed3519467a3a {
+    --blur-value: blur(15px);}
+
+</style>
+
+<style id="override-container-styles">
+    @media screen and (max-width: 767px) {
+          
+            
+
+#block-2461c3e7ed3519467a3a {
+            
+            }
+        }
+    
+  
+    @media screen and (max-width: 767px) {
+          #block-2461c3e7ed3519467a3a .sqs-html-content {
+            
+            }
+        }
+    
+  @media screen and (max-width: 767px) {
+          
+          
+
+          
+          
+          
+        }</style>
+<style class="transform-overrides-vars">
+  
+</style>
+
+
+
+
+</div>
+</div></div></div><div class="fe-block fe-block-045c6b4f19ff3eca352b"><div class="sqs-block website-component-block sqs-block-website-component sqs-block-html html-block" data-block-css="[&quot;https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.html/b6dd483b-9d91-4b82-8888-d9cf0d14fade_947/website.components.html.styles.css&quot;]" data-block-scripts="[&quot;https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.html/b6dd483b-9d91-4b82-8888-d9cf0d14fade_947/website.components.html.visitor.js&quot;]" data-block-type="1337" data-definition-name="website.components.html" data-sqsp-block="text" data-website-component-id="045c6b4f19ff3eca352b" id="block-045c6b4f19ff3eca352b"><div class="sqs-block-content"><div class="sqs-text-block-container">
+  
+  <div class="sqs-html-content" data-sqsp-text-block-content><p class="sqsrte-large" style="white-space:pre-wrap;"><a href="/bands">Rock Shop</a>        <a href="/teachers">Teachers</a>        <a href="/blog">Blog</a>        <a href="/contact">Contact</a></p></div>
+
+
+  
+<style id="container-styles">#block-045c6b4f19ff3eca352b {
+    
+    --stroke-style: none;--stroke-thickness: 6px;
+    
+      
+      
+      
+    
+
+
+
+  }
+
+  #block-045c6b4f19ff3eca352b .sqs-html-content {
+    
+    --tweak-text-block-padding: 6% 6% 6% 6%;
+  --tweak-text-block-padding: initial;
+}
+
+  .fe-block-045c6b4f19ff3eca352b {
+      mix-blend-mode: var(--tweak-text-block-blend
+  );
+      border-radius: var(--tweak-text-block-radius);
+  }
+
+  
+  
+.fe-block-045c6b4f19ff3eca352b {
+      --tweak-text-block-radius: 0px 0px 0px 0px;
+    }
+
+
+  
+  .fe-block-045c6b4f19ff3eca352b {
+      --tweak-text-block-blend
+  : normal;
+    }
+  
+
+  .fe-block-045c6b4f19ff3eca352b {
+    --blur-value: blur(15px);}
+
+</style>
+
+<style id="override-container-styles">
+    @media screen and (max-width: 767px) {
+          
+            
+
+#block-045c6b4f19ff3eca352b {
+            
+            }
+        }
+    
+  
+    @media screen and (max-width: 767px) {
+          #block-045c6b4f19ff3eca352b .sqs-html-content {
+            
+            }
+        }
+    
+  @media screen and (max-width: 767px) {
+          
+          
+
+          
+          
+          
+        }</style>
+<style class="transform-overrides-vars">
+  
+</style>
+
+
+
+
+</div>
+</div></div></div><div class="fe-block fe-block-157da4d9aca29c409b34"><div class="sqs-block website-component-block sqs-block-website-component sqs-block-socialaccountlinks social-account-links-block social-account-links-v2-block" data-block-css="[&quot;https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.socialLinks/834c5967-def0-4d59-a3aa-c319050f9186_725/website.components.socialLinks.styles.css&quot;]" data-block-scripts="[&quot;https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.socialLinks/834c5967-def0-4d59-a3aa-c319050f9186_725/website.components.socialLinks.visitor.js&quot;]" data-block-type="1337" data-definition-name="website.components.socialLinks" data-sqsp-block="social-links" data-website-component-id="157da4d9aca29c409b34" id="block-157da4d9aca29c409b34"><div class="sqs-block-content">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="sqs-block-socialaccountlinks-content">
+  <div class="sqs-svg-icon--outer social-icon-alignment-right social-icons-color-black social-icons-size-extra-large social-icons-style-regular ">
+    <style>
+      
+      #block-157da4d9aca29c409b34 {
+        --social-icons-justify-content: flex-end;
+        --social-icons-dimension: 32px;--social-icons-gap: 18px;
+        --social-icons-border-thickness: 2px;
+      }
+
+      
+      #block-157da4d9aca29c409b34 .sqs-svg-icon--wrapper {
+        --si-border-radius: 0;--si-scale: 2;--si-box-shadow: none;--si-fill-icon: var(--si-primary);--si-fill-icon-fade: var(--si-primary-faded);--si-fill-icon-hover: var(--si-primary);--si-fill-mask: transparent;--si-fill-mask-fade: transparent;--si-fill-mask-hover: transparent;--si-bg: transparent;--si-bg-fade: transparent;--si-bg-hover: transparent;
+      }
+
+      
+      #block-157da4d9aca29c409b34 .sqs-svg-icon--list {
+        justify-content: var(--social-icons-justify-content, center);
+        column-gap: var(--social-icons-gap, 12px);
+        row-gap: var(--social-icons-gap, 12px);
+      }
+      #block-157da4d9aca29c409b34 .sqs-svg-icon--wrapper {
+        width: var(--social-icons-dimension, 20px);
+        height: var(--social-icons-dimension, 20px);
+        margin: 0;
+        border: none; 
+        background-color: var(--si-bg, transparent);
+        box-shadow: var(--si-box-shadow, none);
+        border-radius: var(--si-border-radius, 0);
+      }
+      #block-157da4d9aca29c409b34 .sqs-svg-icon--wrapper > div {
+        transform: scale(var(--si-scale, 1));
+      }
+      #block-157da4d9aca29c409b34 .sqs-use--icon {
+        fill: var(--si-fill-icon, transparent);
+      }
+      #block-157da4d9aca29c409b34 .sqs-use--mask {
+        fill: var(--si-fill-mask, transparent);
+      }
+      #block-157da4d9aca29c409b34 .sqs-svg-icon--list:hover .sqs-svg-icon--wrapper {
+        background-color: var(--si-bg-fade, var(--si-bg, transparent));
+      }
+      #block-157da4d9aca29c409b34 .sqs-svg-icon--list:hover .sqs-svg-icon--wrapper .sqs-use--icon {
+        fill: var(--si-fill-icon-fade, var(--si-fill-icon, transparent));
+      }
+      #block-157da4d9aca29c409b34 .sqs-svg-icon--list:hover .sqs-svg-icon--wrapper .sqs-use--mask {
+        fill: var(--si-fill-mask-fade, var(--si-fill-mask, transparent));
+      }
+      #block-157da4d9aca29c409b34 .sqs-svg-icon--list:hover .sqs-svg-icon--wrapper:hover {
+        background-color: var(--si-bg-hover, var(--si-bg, transparent));
+      }
+      #block-157da4d9aca29c409b34 .sqs-svg-icon--list:hover .sqs-svg-icon--wrapper:hover .sqs-use--icon {
+        fill: var(--si-fill-icon-hover, var(--si-fill-icon, transparent));
+      }
+      #block-157da4d9aca29c409b34 .sqs-svg-icon--list:hover .sqs-svg-icon--wrapper:hover .sqs-use--mask {
+        fill: var(--si-fill-mask-hover, var(--si-fill-mask, transparent));
+      }
+    </style>
+    <nav class="sqs-svg-icon--list">
+      
+        
+          <a
+            href="https://instagram.com/wylieschoolofmusic"
+            target="_blank"
+            class="sqs-svg-icon--wrapper instagram-unauth"
+            aria-label="Instagram"
+          >
+            <div>
+              <svg class="sqs-svg-icon--social" viewBox="0 0 64 64">
+                <use class="sqs-use--icon" xlink:href="/universal/svg/social-accounts.svg#instagram-unauth-icon"></use>
+                <use class="sqs-use--mask" xlink:href="/universal/svg/social-accounts.svg#instagram-unauth-mask"></use>
+              </svg>
+            </div>
+          </a>
+        
+      
+        
+          <a
+            href="https://facebook.com/wylieschoolofmusic"
+            target="_blank"
+            class="sqs-svg-icon--wrapper facebook-unauth"
+            aria-label="Facebook"
+          >
+            <div>
+              <svg class="sqs-svg-icon--social" viewBox="0 0 64 64">
+                <use class="sqs-use--icon" xlink:href="/universal/svg/social-accounts.svg#facebook-unauth-icon"></use>
+                <use class="sqs-use--mask" xlink:href="/universal/svg/social-accounts.svg#facebook-unauth-mask"></use>
+              </svg>
+            </div>
+          </a>
+        
+      
+        
+          <a
+            href="https://www.youtube.com/channel/UC3BX5RTWWpQQb9FAbS5eNNg"
+            target="_blank"
+            class="sqs-svg-icon--wrapper youtube-unauth"
+            aria-label="YouTube"
+          >
+            <div>
+              <svg class="sqs-svg-icon--social" viewBox="0 0 64 64">
+                <use class="sqs-use--icon" xlink:href="/universal/svg/social-accounts.svg#youtube-unauth-icon"></use>
+                <use class="sqs-use--mask" xlink:href="/universal/svg/social-accounts.svg#youtube-unauth-mask"></use>
+              </svg>
+            </div>
+          </a>
+        
+      
+    </nav>
+  </div>
+  
+    
+<style id="container-styles">#block-157da4d9aca29c409b34 {
+    
+    
+    
+
+
+
+  }
+
+  #block-157da4d9aca29c409b34 .sqs-block-socialaccountlinks-content {
+    
+    --tweak-social-links-block-padding: initial;
+}
+
+  .fe-block-157da4d9aca29c409b34 {
+      mix-blend-mode: var(--tweak-social-links-block-blend);
+      border-radius: var(--tweak-social-links-block-radius);
+  }
+
+  
+  
+
+
+
+  
+  
+
+  .fe-block-157da4d9aca29c409b34 {
+    }
+
+</style>
+
+<style id="override-container-styles">
+    @media screen and (max-width: 767px) {
+          
+            
+
+#block-157da4d9aca29c409b34 {
+            
+            }
+        }
+    
+  
+    @media screen and (max-width: 767px) {
+          #block-157da4d9aca29c409b34 .sqs-block-socialaccountlinks-content {
+            
+            }
+        }
+    
+  @media screen and (max-width: 767px) {
+          
+          
+
+          
+          
+          
+        }</style>
+
+    <style class="transform-overrides-vars">
+  
+</style>
+
+    
+
+
+
+  
+</div>
+</div></div></div></div></div>
+    </div>
+  
+  </div>
+  
+</section>
+
+  
 </footer>
