@@ -1,0 +1,17 @@
+---
+layout: default
+---
+{% if page.hide_hero != true %}
+<div class="page-hero">
+  <div class="container">
+    <h1 class="page-title">{{ page.title }}</h1>
+    {% if page.subtitle %}
+    <p class="page-subtitle">{{ page.subtitle }}</p>
+    {% endif %}
+  </div>
+</div>
+{% endif %}
+
+<div class="page-body">
+  {{ content }}
+</div>

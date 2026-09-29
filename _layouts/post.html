@@ -1,0 +1,43 @@
+---
+layout: default
+---
+<article class="blog-post">
+  <div class="post-hero">
+    <div class="container">
+      <div class="post-meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">
+          {{ page.date | date: "%B %-d, %Y" }}
+        </time>
+        {% if page.categories and page.categories.size > 0 %}
+        <span class="meta-sep">•</span>
+        <span class="post-category">{{ page.categories | join: ", " }}</span>
+        {% endif %}
+      </div>
+      <h1 class="post-title">{{ page.title }}</h1>
+    </div>
+  </div>
+
+  <div class="container post-container">
+    {% if page.featured_image %}
+    <div class="post-featured-image-wrapper">
+      <img src="{{ page.featured_image }}" alt="{{ page.title }}" class="post-featured-image">
+    </div>
+    {% endif %}
+
+    <div class="post-content prose">
+      {{ content }}
+    </div>
+
+    <div class="post-footer">
+      <div class="post-cta-card">
+        <h3>Ready to Make Music?</h3>
+        <p>Whether you're picking up an instrument for the first time or looking to take your playing to the next level, our teachers are here to help!</p>
+        <a href="/contact/" class="btn btn-primary">Schedule a Free Trial</a>
+      </div>
+
+      <div class="post-nav-back">
+        <a href="/blog/" class="back-link">&larr; Back to all articles</a>
+      </div>
+    </div>
+  </div>
+</article>

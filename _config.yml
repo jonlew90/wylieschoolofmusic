@@ -1,0 +1,49 @@
+# Site Settings
+title: "Wylie School of Music"
+tagline: "Guitar, Piano, Drum & Bass Lessons in Wylie, TX"
+description: "Wylie School of Music offers fun, engaging Guitar, Piano, Drum & Bass lessons in Wylie, TX. Build confidence while mastering your instrument. Enroll today!"
+url: "https://wylieschoolofmusic.com"
+baseurl: ""
+
+# Contact & Business Info
+phone: "(972) 665-8621"
+phone_clean: "9726658621"
+email: "info@wylieschoolofmusic.com"
+address: "403 S. Jackson #103"
+city_state_zip: "Wylie, TX 75098"
+
+# FormSubmit Configuration (Secure Setup)
+# Instructions to activate:
+# 1. Visit https://formsubmit.co/el/ and enter info@wylieschoolofmusic.com to generate your random hash key.
+# 2. Paste the hash key below to keep your email hidden from public scraping bots.
+# 3. If left blank, it falls back to the email address.
+formsubmit_id: "info@wylieschoolofmusic.com"
+
+# Analytics & Ads Tracking
+google_tag_manager_id: "GTM-NRT25LSR"
+google_ads_id: "AW-1034584156"
+
+# Social Links
+social:
+  instagram: "https://instagram.com/wylieschoolofmusic"
+  facebook: "https://facebook.com/wylieschoolofmusic"
+  youtube: "https://www.youtube.com/channel/UC3BX5RTWWpQQb9FAbS5eNNg"
+
+# Build Settings
+permalink: /:title/
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+collections:
+  posts:
+    output: true
+    permalink: /blog/:title/
+
+exclude:
+  - README.md
+  - scratch
+  - Gemfile
+  - Gemfile.lock

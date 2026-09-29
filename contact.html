@@ -1,0 +1,53 @@
+---
+layout: page
+title: "Contact Us"
+subtitle: "Have questions or ready to get started with lessons? Send us a message, and we'll be happy to help!"
+description: "Contact Wylie School of Music. Call (972) 665-8621 or send an inquiry to schedule guitar, piano, drums, bass, voice, or violin lessons in Wylie, TX."
+---
+<section class="section">
+  <div class="container">
+    <div class="split-grid">
+      <!-- Contact Info & Map -->
+      <div class="contact-info-col">
+        <span class="section-tag">Get in Touch</span>
+        <h2 class="section-title">Let's Make Music Together</h2>
+        <p class="section-desc">
+          Whether you're looking to learn Guitar, Piano, Drums, Bass, Voice, or Violin, we're here to guide you every step of the way. Reach out today to schedule your trial lesson!
+        </p>
+
+        <div class="contact-details-card card" style="margin-bottom: 2rem;">
+          <p style="display: flex; gap: 0.75rem; align-items: flex-start; margin-bottom: 1rem;">
+            <strong style="min-width: 80px; color: var(--dark);">Address:</strong>
+            <span>{{ site.address }}<br>{{ site.city_state_zip }}</span>
+          </p>
+          <p style="display: flex; gap: 0.75rem; align-items: center; margin-bottom: 1rem;">
+            <strong style="min-width: 80px; color: var(--dark);">Phone:</strong>
+            <a href="tel:{{ site.phone_clean }}">{{ site.phone }}</a>
+          </p>
+          <p style="display: flex; gap: 0.75rem; align-items: center; margin-bottom: 0;">
+            <strong style="min-width: 80px; color: var(--dark);">Email:</strong>
+            <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+          </p>
+        </div>
+
+        <!-- Google Map Embed -->
+        <div class="map-wrapper">
+          <iframe 
+            src="https://maps.google.com/maps?q=403+S+Jackson+Ave+%23103,+Wylie,+TX+75098&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+            title="Wylie School of Music Location Map"
+            loading="lazy" 
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="contact-form-col">
+        <div class="form-wrapper">
+          <h3 style="margin-bottom: 1.5rem;">Send Us a Message</h3>
+          {% include form.html id="contact-page" button_text="Send Message" redirect="/thank-you/" subject="Website Contact Form Submission - WSOM" %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

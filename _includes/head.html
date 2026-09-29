@@ -1,0 +1,45 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }} | {{ site.tagline }}{% endif %}</title>
+<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+<!-- Open Graph -->
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }} | {{ site.tagline }}{% endif %}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+{% if page.featured_image %}
+<meta property="og:image" content="{{ site.url }}{{ page.featured_image }}">
+{% endif %}
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Main Stylesheet -->
+<link rel="stylesheet" href="/assets/css/style.css">
+
+{% if site.google_tag_manager_id %}
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','{{ site.google_tag_manager_id }}');</script>
+<!-- End Google Tag Manager -->
+{% endif %}
+
+{% if site.google_ads_id %}
+<!-- Google Ads (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_ads_id }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ site.google_ads_id }}');
+</script>
+{% endif %}

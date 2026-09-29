@@ -1,0 +1,65 @@
+<!-- Reusable Secure FormSubmit Component -->
+<form action="https://formsubmit.co/{{ site.formsubmit_id }}" method="POST" class="site-form {{ include.form_class }}">
+  <!-- Security Step 2: Anti-Spam Honeypot Field -->
+  <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+
+  <!-- Security Step 3: Domain Restriction -->
+  <input type="hidden" name="_domain" value="{{ site.url }}">
+
+  <!-- Redirection & Meta Options -->
+  <input type="hidden" name="_next" value="{{ site.url }}{{ include.redirect | default: '/thank-you/' }}">
+  <input type="hidden" name="_subject" value="{{ include.subject | default: 'New Inquiry from Wylie School of Music Website' }}">
+  <input type="hidden" name="_template" value="table">
+
+  <div class="form-row">
+    <div class="form-group">
+      <label for="form-name-{{ include.id | default: 'general' }}">Your Name <span class="required">*</span></label>
+      <input type="text" id="form-name-{{ include.id | default: 'general' }}" name="name" required placeholder="First & Last Name" class="form-control">
+    </div>
+    <div class="form-group">
+      <label for="form-email-{{ include.id | default: 'general' }}">Email Address <span class="required">*</span></label>
+      <input type="email" id="form-email-{{ include.id | default: 'general' }}" name="email" required placeholder="you@example.com" class="form-control">
+    </div>
+  </div>
+
+  <div class="form-row">
+    <div class="form-group">
+      <label for="form-phone-{{ include.id | default: 'general' }}">Phone Number {% if include.require_phone != false %}<span class="required">*</span>{% else %}<span class="optional">(optional)</span>{% endif %}</label>
+      <input type="tel" id="form-phone-{{ include.id | default: 'general' }}" name="phone" {% if include.require_phone != false %}required{% endif %} placeholder="(972) 000-0000" class="form-control">
+    </div>
+    {% if include.instrument_field != false %}
+    <div class="form-group">
+      <label for="form-instrument-{{ include.id | default: 'general' }}">Instrument of Interest</label>
+      <select id="form-instrument-{{ include.id | default: 'general' }}" name="instrument" class="form-control">
+        <option value="">Select an instrument...</option>
+        <option value="Guitar" {% if include.default_instrument == 'Guitar' %}selected{% endif %}>Guitar Lessons</option>
+        <option value="Piano" {% if include.default_instrument == 'Piano' %}selected{% endif %}>Piano Lessons</option>
+        <option value="Drums" {% if include.default_instrument == 'Drums' %}selected{% endif %}>Drum Lessons</option>
+        <option value="Bass" {% if include.default_instrument == 'Bass' %}selected{% endif %}>Bass Lessons</option>
+        <option value="Voice" {% if include.default_instrument == 'Voice' %}selected{% endif %}>Voice Lessons</option>
+        <option value="Violin" {% if include.default_instrument == 'Violin' %}selected{% endif %}>Violin Lessons</option>
+        <option value="Rock Shop Bands" {% if include.default_instrument == 'Rock Shop' %}selected{% endif %}>Rock Shop Band Program</option>
+        <option value="Other">Other / Multiple</option>
+      </select>
+    </div>
+    {% endif %}
+  </div>
+
+  {% if include.show_trial_checkbox %}
+  <div class="form-group form-checkbox-group">
+    <label class="checkbox-label">
+      <input type="checkbox" name="trial_lesson_interest" value="Yes, I would like to schedule a free trial lesson!" checked>
+      <span>I am interested in scheduling a free trial lesson!</span>
+    </label>
+  </div>
+  {% endif %}
+
+  <div class="form-group">
+    <label for="form-message-{{ include.id | default: 'general' }}">How can we help? <span class="required">*</span></label>
+    <textarea id="form-message-{{ include.id | default: 'general' }}" name="message" rows="4" required placeholder="Tell us about student's age, musical goals, or questions..." class="form-control"></textarea>
+  </div>
+
+  <div class="form-submit-row">
+    <button type="submit" class="btn btn-primary btn-submit">{{ include.button_text | default: 'Send Message' }}</button>
+  </div>
+</form>
