@@ -12,7 +12,9 @@
   {% endif %}
 
   <div id="siteWrapper" class="clearfix site-wrapper">
+    {% if page.hide_header != true %}
     {% include header.html %}
+    {% endif %}
 
     {% if page.layout == 'post' or page.url contains '/blog/' %}
     <main id="page" class="container blog-page-container" role="main">
@@ -22,7 +24,9 @@
     {{ content }}
     {% endif %}
 
+    {% if page.hide_footer != true %}
     {% include footer.html %}
+    {% endif %}
   </div>
 
   <script src="{{ site.baseurl }}/assets/js/main.js"></script>

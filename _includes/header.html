@@ -1,16 +1,8 @@
 <header
     data-test="header"
     id="header"
-    
-    class="
-      
-        
-          black
-        
-      
-      header theme-col--primary
-    "
-    data-section-theme="black"
+    class="{% if page.header_theme == 'white' %}white{% elsif page.header_theme == '' or page.header_theme == 'none' %}{% else %}black{% endif %} header theme-col--primary"
+    data-section-theme="{% if page.header_theme == 'white' %}white{% elsif page.header_theme == '' or page.header_theme == 'none' %}{% else %}black{% endif %}"
     data-controller="Header"
     data-current-styles="{
 &quot;layout&quot;: &quot;navLeft&quot;,
