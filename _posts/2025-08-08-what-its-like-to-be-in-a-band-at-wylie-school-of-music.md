@@ -30,82 +30,25 @@ excerpt: "At Wylie School of Music, learning to play an instrument is just the b
 
 <p>Whether your child is a beginner or already has a few years of playing under their belt, Rock Shop gives them a place to grow, perform, and be part of something bigger.</p>
 
-<img src="{{ site.baseurl }}/assets/images/DSC_3251.jpeg" alt="DSC_3251.jpeg" />
-
-<img elementtiming="system-gallery-block-grid" src="{{ site.baseurl }}/assets/images/DSC_3251.jpeg"    alt="DSC_3251.jpeg" />
-
-<img src="{{ site.baseurl }}/assets/images/DSC_3276.jpeg" alt="DSC_3276.jpeg" />
-
-<img elementtiming="system-gallery-block-grid" src="{{ site.baseurl }}/assets/images/DSC_3276.jpeg"    alt="DSC_3276.jpeg" />
-
-<img src="{{ site.baseurl }}/assets/images/DSC_3295.jpeg" alt="DSC_3295.jpeg" />
-
-<img elementtiming="system-gallery-block-grid" src="{{ site.baseurl }}/assets/images/DSC_3295.jpeg"    alt="DSC_3295.jpeg" />
-
-<img src="{{ site.baseurl }}/assets/images/DSC_3296.jpeg" alt="DSC_3296.jpeg" />
-
-<img elementtiming="system-gallery-block-grid" src="{{ site.baseurl }}/assets/images/DSC_3296.jpeg"    alt="DSC_3296.jpeg" />
-
-<img src="{{ site.baseurl }}/assets/images/DSC_3301.jpeg" alt="DSC_3301.jpeg" />
-
-<img elementtiming="system-gallery-block-grid" src="{{ site.baseurl }}/assets/images/DSC_3301.jpeg"    alt="DSC_3301.jpeg" />
-
-<img src="{{ site.baseurl }}/assets/images/DSC_3312.jpeg" alt="DSC_3312.jpeg" />
-
-<img elementtiming="system-gallery-block-grid" src="{{ site.baseurl }}/assets/images/DSC_3312.jpeg"    alt="DSC_3312.jpeg" />
-
-<img src="{{ site.baseurl }}/assets/images/DSC_3315.jpeg" alt="DSC_3315.jpeg" />
-
-<img elementtiming="system-gallery-block-grid" src="{{ site.baseurl }}/assets/images/DSC_3315.jpeg"    alt="DSC_3315.jpeg" />
-
-<img src="{{ site.baseurl }}/assets/images/DSC_3324.jpeg" alt="DSC_3324.jpeg" />
-
-<img elementtiming="system-gallery-block-grid" src="{{ site.baseurl }}/assets/images/DSC_3324.jpeg"    alt="DSC_3324.jpeg" />
-
-<img src="{{ site.baseurl }}/assets/images/DSC_3329.jpeg" alt="DSC_3329.jpeg" />
-
-<img elementtiming="system-gallery-block-grid" src="{{ site.baseurl }}/assets/images/DSC_3329.jpeg"    alt="DSC_3329.jpeg" />
-
-<img src="{{ site.baseurl }}/assets/images/DSC_3332.jpeg" alt="DSC_3332.jpeg" />
-
-<img elementtiming="system-gallery-block-grid" src="{{ site.baseurl }}/assets/images/DSC_3332.jpeg"    alt="DSC_3332.jpeg" />
-
-<img src="{{ site.baseurl }}/assets/images/DSC_3371.jpeg" alt="DSC_3371.jpeg" />
-
-<img elementtiming="system-gallery-block-grid" src="{{ site.baseurl }}/assets/images/DSC_3371.jpeg"    alt="DSC_3371.jpeg" />
-
-<img src="{{ site.baseurl }}/assets/images/DSC_3374.jpeg" alt="DSC_3374.jpeg" />
-
-<img elementtiming="system-gallery-block-grid" src="{{ site.baseurl }}/assets/images/DSC_3374.jpeg"    alt="DSC_3374.jpeg" />
-
-<img src="{{ site.baseurl }}/assets/images/DSC_3376.jpeg" alt="DSC_3376.jpeg" />
-
-<img elementtiming="system-gallery-block-grid" src="{{ site.baseurl }}/assets/images/DSC_3376.jpeg"    alt="DSC_3376.jpeg" />
-
-<img src="{{ site.baseurl }}/assets/images/DSC_3380.jpeg" alt="DSC_3380.jpeg" />
-
-<img elementtiming="system-gallery-block-grid" src="{{ site.baseurl }}/assets/images/DSC_3380.jpeg"    alt="DSC_3380.jpeg" />
-
-<img src="{{ site.baseurl }}/assets/images/DSC_3412.jpeg" alt="DSC_3412.jpeg" />
-
-<img elementtiming="system-gallery-block-grid" src="{{ site.baseurl }}/assets/images/DSC_3412.jpeg"    alt="DSC_3412.jpeg" />
-
-<img src="{{ site.baseurl }}/assets/images/GLW-7.jpeg" alt="GLW-7.jpeg" />
-
-<img elementtiming="system-gallery-block-grid" src="{{ site.baseurl }}/assets/images/GLW-7.jpeg"    alt="GLW-7.jpeg" />
-
-<img src="{{ site.baseurl }}/assets/images/GLW-126.jpeg" alt="GLW-126.jpeg" />
-
-<img elementtiming="system-gallery-block-grid" src="{{ site.baseurl }}/assets/images/GLW-126.jpeg"    alt="GLW-126.jpeg" />
-
-<img src="{{ site.baseurl }}/assets/images/GLW-228.jpeg" alt="GLW-228.jpeg" />
-
-<img elementtiming="system-gallery-block-grid" src="{{ site.baseurl }}/assets/images/GLW-228.jpeg"    alt="GLW-228.jpeg" />
-
-<img src="{{ site.baseurl }}/assets/images/GLW-250.jpeg" alt="GLW-250.jpeg" />
-
-<img elementtiming="system-gallery-block-grid" src="{{ site.baseurl }}/assets/images/GLW-250.jpeg"    alt="GLW-250.jpeg" />
-
-<img src="{{ site.baseurl }}/assets/images/Guitar_Lessons_Wylie_Fall_2024-114.jpeg" alt="Guitar_Lessons_Wylie_Fall_2024-114.jpeg" />
-
-<img elementtiming="system-gallery-block-grid" src="{{ site.baseurl }}/assets/images/Guitar_Lessons_Wylie_Fall_2024-114.jpeg"    alt="Guitar_Lessons_Wylie_Fall_2024-114.jpeg" />
+<div class="blog-gallery-grid">
+  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/DSC_3251.jpeg" alt="Rock Shop Band Performance" loading="lazy"></div>
+  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/DSC_3276.jpeg" alt="Rock Shop Band Performance" loading="lazy"></div>
+  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/DSC_3295.jpeg" alt="Rock Shop Band Performance" loading="lazy"></div>
+  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/DSC_3296.jpeg" alt="Rock Shop Band Performance" loading="lazy"></div>
+  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/DSC_3301.jpeg" alt="Rock Shop Band Performance" loading="lazy"></div>
+  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/DSC_3312.jpeg" alt="Rock Shop Band Performance" loading="lazy"></div>
+  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/DSC_3315.jpeg" alt="Rock Shop Band Performance" loading="lazy"></div>
+  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/DSC_3324.jpeg" alt="Rock Shop Band Performance" loading="lazy"></div>
+  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/DSC_3329.jpeg" alt="Rock Shop Band Performance" loading="lazy"></div>
+  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/DSC_3332.jpeg" alt="Rock Shop Band Performance" loading="lazy"></div>
+  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/DSC_3371.jpeg" alt="Rock Shop Band Performance" loading="lazy"></div>
+  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/DSC_3374.jpeg" alt="Rock Shop Band Performance" loading="lazy"></div>
+  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/DSC_3376.jpeg" alt="Rock Shop Band Performance" loading="lazy"></div>
+  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/DSC_3380.jpeg" alt="Rock Shop Band Performance" loading="lazy"></div>
+  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/DSC_3412.jpeg" alt="Rock Shop Band Performance" loading="lazy"></div>
+  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/GLW-7.jpeg" alt="Rock Shop Band Performance" loading="lazy"></div>
+  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/GLW-126.jpeg" alt="Rock Shop Band Performance" loading="lazy"></div>
+  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/GLW-228.jpeg" alt="Rock Shop Band Performance" loading="lazy"></div>
+  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/GLW-250.jpeg" alt="Rock Shop Band Performance" loading="lazy"></div>
+  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/Guitar_Lessons_Wylie_Fall_2024-114.jpeg" alt="Rock Shop Band Performance" loading="lazy"></div>
+</div>

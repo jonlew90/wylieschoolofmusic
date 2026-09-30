@@ -16,62 +16,41 @@ excerpt: "This week, one of our Wylie School of Music Rock Shop bands had the op
 
 <p>A huge <strong>thank you to Walk-On’s Wylie for inviting our students to be part of your opening celebration!</strong> We were honored to be there and wish you guys much success in Wylie!</p>
 
-<img src="{{ site.baseurl }}/assets/images/DSC_4255.jpeg" alt="DSC_4255.jpeg" />
+<div class="blog-video-container">
+  <iframe src="https://www.youtube.com/embed/NQn6BY_OaM4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen title="Wylie School of Music Rock Shop - &quot;Edge of Seventeen&quot;"></iframe>
+</div>
 
-<img elementtiming="system-gallery-block-slideshow" src="{{ site.baseurl }}/assets/images/DSC_4255.jpeg"    alt="DSC_4255.jpeg" />
+<div class="blog-video-container">
+  <iframe src="https://www.youtube.com/embed/EmjF7JS07RE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen title="Wylie School of Music Rock Shop - &quot;Sweet Child 'O Mine&quot;"></iframe>
+</div>
 
-<img src="{{ site.baseurl }}/assets/images/DSC_4256.jpeg" alt="DSC_4256.jpeg" />
-
-<img elementtiming="system-gallery-block-slideshow" src="{{ site.baseurl }}/assets/images/DSC_4256.jpeg"    alt="DSC_4256.jpeg" />
-
-<img src="{{ site.baseurl }}/assets/images/DSC_4253.jpeg" alt="DSC_4253.jpeg" />
-
-<img elementtiming="system-gallery-block-slideshow" src="{{ site.baseurl }}/assets/images/DSC_4253.jpeg"    alt="DSC_4253.jpeg" />
-
-<img src="{{ site.baseurl }}/assets/images/DSC_4252.jpeg" alt="DSC_4252.jpeg" />
-
-<img elementtiming="system-gallery-block-slideshow" src="{{ site.baseurl }}/assets/images/DSC_4252.jpeg"    alt="DSC_4252.jpeg" />
-
-<img src="{{ site.baseurl }}/assets/images/DSC_4258.jpeg" alt="DSC_4258.jpeg" />
-
-<img elementtiming="system-gallery-block-slideshow" src="{{ site.baseurl }}/assets/images/DSC_4258.jpeg"    alt="DSC_4258.jpeg" />
-
-<img src="{{ site.baseurl }}/assets/images/DSC_4266.jpeg" alt="DSC_4266.jpeg" />
-
-<img elementtiming="system-gallery-block-slideshow" src="{{ site.baseurl }}/assets/images/DSC_4266.jpeg"    alt="DSC_4266.jpeg" />
-
-<img src="{{ site.baseurl }}/assets/images/DSC_4268.jpeg" alt="DSC_4268.jpeg" />
-
-<img elementtiming="system-gallery-block-slideshow" src="{{ site.baseurl }}/assets/images/DSC_4268.jpeg"    alt="DSC_4268.jpeg" />
-
-<img src="{{ site.baseurl }}/assets/images/DSC_4270.jpeg" alt="DSC_4270.jpeg" />
-
-<img elementtiming="system-gallery-block-slideshow" src="{{ site.baseurl }}/assets/images/DSC_4270.jpeg"    alt="DSC_4270.jpeg" />
-
-<img src="{{ site.baseurl }}/assets/images/DSC_4277.jpeg" alt="DSC_4277.jpeg" />
-
-<img elementtiming="system-gallery-block-slideshow" src="{{ site.baseurl }}/assets/images/DSC_4277.jpeg"    alt="DSC_4277.jpeg" />
-
-<img src="{{ site.baseurl }}/assets/images/DSC_4278.jpeg" alt="DSC_4278.jpeg" />
-
-<img elementtiming="system-gallery-block-slideshow" src="{{ site.baseurl }}/assets/images/DSC_4278.jpeg"    alt="DSC_4278.jpeg" />
-
-<img tabindex="0" role="button" aria-label="Slide 1" elementtiming="system-gallery-thumbnail" src="{{ site.baseurl }}/assets/images/DSC_4255.jpeg"    alt="DSC_4255.jpeg"  src="{{ site.baseurl }}/assets/images/DSC_4255.jpeg" width="120" height="80" alt="Slide 1" sizes="120px" srcset="/assets/images/DSC_4255.jpeg?format=100w 100w, /assets/images/DSC_4255.jpeg?format=300w 300w, /assets/images/DSC_4255.jpeg?format=500w 500w, /assets/images/DSC_4255.jpeg?format=750w 750w, /assets/images/DSC_4255.jpeg?format=1000w 1000w, /assets/images/DSC_4255.jpeg?format=1500w 1500w, /assets/images/DSC_4255.jpeg?format=2500w 2500w" loading="lazy" decoding="async">
-
-<img tabindex="0" role="button" aria-label="Slide 2" elementtiming="system-gallery-thumbnail" src="{{ site.baseurl }}/assets/images/DSC_4256.jpeg"    alt="DSC_4256.jpeg"  src="{{ site.baseurl }}/assets/images/DSC_4256.jpeg" width="53" height="80" alt="Slide 2" sizes="53px" srcset="/assets/images/DSC_4256.jpeg?format=100w 100w, /assets/images/DSC_4256.jpeg?format=300w 300w, /assets/images/DSC_4256.jpeg?format=500w 500w, /assets/images/DSC_4256.jpeg?format=750w 750w, /assets/images/DSC_4256.jpeg?format=1000w 1000w, /assets/images/DSC_4256.jpeg?format=1500w 1500w, /assets/images/DSC_4256.jpeg?format=2500w 2500w" loading="lazy" decoding="async">
-
-<img tabindex="0" role="button" aria-label="Slide 3" elementtiming="system-gallery-thumbnail" src="{{ site.baseurl }}/assets/images/DSC_4253.jpeg"    alt="DSC_4253.jpeg"  src="{{ site.baseurl }}/assets/images/DSC_4253.jpeg" width="53" height="80" alt="Slide 3" sizes="53px" srcset="/assets/images/DSC_4253.jpeg?format=100w 100w, /assets/images/DSC_4253.jpeg?format=300w 300w, /assets/images/DSC_4253.jpeg?format=500w 500w, /assets/images/DSC_4253.jpeg?format=750w 750w, /assets/images/DSC_4253.jpeg?format=1000w 1000w, /assets/images/DSC_4253.jpeg?format=1500w 1500w, /assets/images/DSC_4253.jpeg?format=2500w 2500w" loading="lazy" decoding="async">
-
-<img tabindex="0" role="button" aria-label="Slide 4" elementtiming="system-gallery-thumbnail" src="{{ site.baseurl }}/assets/images/DSC_4252.jpeg"    alt="DSC_4252.jpeg"  src="{{ site.baseurl }}/assets/images/DSC_4252.jpeg" width="53" height="80" alt="Slide 4" sizes="53px" srcset="/assets/images/DSC_4252.jpeg?format=100w 100w, /assets/images/DSC_4252.jpeg?format=300w 300w, /assets/images/DSC_4252.jpeg?format=500w 500w, /assets/images/DSC_4252.jpeg?format=750w 750w, /assets/images/DSC_4252.jpeg?format=1000w 1000w, /assets/images/DSC_4252.jpeg?format=1500w 1500w, /assets/images/DSC_4252.jpeg?format=2500w 2500w" loading="lazy" decoding="async">
-
-<img tabindex="0" role="button" aria-label="Slide 5" elementtiming="system-gallery-thumbnail" src="{{ site.baseurl }}/assets/images/DSC_4258.jpeg"    alt="DSC_4258.jpeg"  src="{{ site.baseurl }}/assets/images/DSC_4258.jpeg" width="53" height="80" alt="Slide 5" sizes="53px" srcset="/assets/images/DSC_4258.jpeg?format=100w 100w, /assets/images/DSC_4258.jpeg?format=300w 300w, /assets/images/DSC_4258.jpeg?format=500w 500w, /assets/images/DSC_4258.jpeg?format=750w 750w, /assets/images/DSC_4258.jpeg?format=1000w 1000w, /assets/images/DSC_4258.jpeg?format=1500w 1500w, /assets/images/DSC_4258.jpeg?format=2500w 2500w" loading="lazy" decoding="async">
-
-<img tabindex="0" role="button" aria-label="Slide 6" elementtiming="system-gallery-thumbnail" src="{{ site.baseurl }}/assets/images/DSC_4266.jpeg"    alt="DSC_4266.jpeg"  src="{{ site.baseurl }}/assets/images/DSC_4266.jpeg" width="53" height="80" alt="Slide 6" sizes="53px" srcset="/assets/images/DSC_4266.jpeg?format=100w 100w, /assets/images/DSC_4266.jpeg?format=300w 300w, /assets/images/DSC_4266.jpeg?format=500w 500w, /assets/images/DSC_4266.jpeg?format=750w 750w, /assets/images/DSC_4266.jpeg?format=1000w 1000w, /assets/images/DSC_4266.jpeg?format=1500w 1500w, /assets/images/DSC_4266.jpeg?format=2500w 2500w" loading="lazy" decoding="async">
-
-<img tabindex="0" role="button" aria-label="Slide 7" elementtiming="system-gallery-thumbnail" src="{{ site.baseurl }}/assets/images/DSC_4268.jpeg"    alt="DSC_4268.jpeg"  src="{{ site.baseurl }}/assets/images/DSC_4268.jpeg" width="53" height="80" alt="Slide 7" sizes="53px" srcset="/assets/images/DSC_4268.jpeg?format=100w 100w, /assets/images/DSC_4268.jpeg?format=300w 300w, /assets/images/DSC_4268.jpeg?format=500w 500w, /assets/images/DSC_4268.jpeg?format=750w 750w, /assets/images/DSC_4268.jpeg?format=1000w 1000w, /assets/images/DSC_4268.jpeg?format=1500w 1500w, /assets/images/DSC_4268.jpeg?format=2500w 2500w" loading="lazy" decoding="async">
-
-<img tabindex="0" role="button" aria-label="Slide 8" elementtiming="system-gallery-thumbnail" src="{{ site.baseurl }}/assets/images/DSC_4270.jpeg"    alt="DSC_4270.jpeg"  src="{{ site.baseurl }}/assets/images/DSC_4270.jpeg" width="120" height="80" alt="Slide 8" sizes="120px" srcset="/assets/images/DSC_4270.jpeg?format=100w 100w, /assets/images/DSC_4270.jpeg?format=300w 300w, /assets/images/DSC_4270.jpeg?format=500w 500w, /assets/images/DSC_4270.jpeg?format=750w 750w, /assets/images/DSC_4270.jpeg?format=1000w 1000w, /assets/images/DSC_4270.jpeg?format=1500w 1500w, /assets/images/DSC_4270.jpeg?format=2500w 2500w" loading="lazy" decoding="async">
-
-<img tabindex="0" role="button" aria-label="Slide 9" elementtiming="system-gallery-thumbnail" src="{{ site.baseurl }}/assets/images/DSC_4277.jpeg"    alt="DSC_4277.jpeg"  src="{{ site.baseurl }}/assets/images/DSC_4277.jpeg" width="53" height="80" alt="Slide 9" sizes="53px" srcset="/assets/images/DSC_4277.jpeg?format=100w 100w, /assets/images/DSC_4277.jpeg?format=300w 300w, /assets/images/DSC_4277.jpeg?format=500w 500w, /assets/images/DSC_4277.jpeg?format=750w 750w, /assets/images/DSC_4277.jpeg?format=1000w 1000w, /assets/images/DSC_4277.jpeg?format=1500w 1500w, /assets/images/DSC_4277.jpeg?format=2500w 2500w" loading="lazy" decoding="async">
-
-<img tabindex="0" role="button" aria-label="Slide 10" elementtiming="system-gallery-thumbnail" src="{{ site.baseurl }}/assets/images/DSC_4278.jpeg"    alt="DSC_4278.jpeg"  src="{{ site.baseurl }}/assets/images/DSC_4278.jpeg" width="120" height="80" alt="Slide 10" sizes="120px" srcset="/assets/images/DSC_4278.jpeg?format=100w 100w, /assets/images/DSC_4278.jpeg?format=300w 300w, /assets/images/DSC_4278.jpeg?format=500w 500w, /assets/images/DSC_4278.jpeg?format=750w 750w, /assets/images/DSC_4278.jpeg?format=1000w 1000w, /assets/images/DSC_4278.jpeg?format=1500w 1500w, /assets/images/DSC_4278.jpeg?format=2500w 2500w" loading="lazy" decoding="async">
+<div class="blog-carousel" aria-label="Photo Gallery Slideshow">
+  <div class="blog-carousel-track-container">
+    <div class="blog-carousel-track">
+      <div class="blog-carousel-slide"><img src="{{ site.baseurl }}/assets/images/DSC_4255.jpeg" alt="Rock Shop at Walk-Ons 1" loading="lazy"></div>
+      <div class="blog-carousel-slide"><img src="{{ site.baseurl }}/assets/images/DSC_4256.jpeg" alt="Rock Shop at Walk-Ons 2" loading="lazy"></div>
+      <div class="blog-carousel-slide"><img src="{{ site.baseurl }}/assets/images/DSC_4253.jpeg" alt="Rock Shop at Walk-Ons 3" loading="lazy"></div>
+      <div class="blog-carousel-slide"><img src="{{ site.baseurl }}/assets/images/DSC_4252.jpeg" alt="Rock Shop at Walk-Ons 4" loading="lazy"></div>
+      <div class="blog-carousel-slide"><img src="{{ site.baseurl }}/assets/images/DSC_4258.jpeg" alt="Rock Shop at Walk-Ons 5" loading="lazy"></div>
+      <div class="blog-carousel-slide"><img src="{{ site.baseurl }}/assets/images/DSC_4266.jpeg" alt="Rock Shop at Walk-Ons 6" loading="lazy"></div>
+      <div class="blog-carousel-slide"><img src="{{ site.baseurl }}/assets/images/DSC_4268.jpeg" alt="Rock Shop at Walk-Ons 7" loading="lazy"></div>
+      <div class="blog-carousel-slide"><img src="{{ site.baseurl }}/assets/images/DSC_4270.jpeg" alt="Rock Shop at Walk-Ons 8" loading="lazy"></div>
+      <div class="blog-carousel-slide"><img src="{{ site.baseurl }}/assets/images/DSC_4277.jpeg" alt="Rock Shop at Walk-Ons 9" loading="lazy"></div>
+      <div class="blog-carousel-slide"><img src="{{ site.baseurl }}/assets/images/DSC_4278.jpeg" alt="Rock Shop at Walk-Ons 10" loading="lazy"></div>
+    </div>
+  </div>
+  <button class="blog-carousel-btn blog-carousel-prev" aria-label="Previous photo">&#10094;</button>
+  <button class="blog-carousel-btn blog-carousel-next" aria-label="Next photo">&#10095;</button>
+  <div class="blog-carousel-nav" role="tablist">
+    <button class="blog-carousel-dot is-active" aria-label="Slide 1" aria-current="true"></button>
+    <button class="blog-carousel-dot" aria-label="Slide 2"></button>
+    <button class="blog-carousel-dot" aria-label="Slide 3"></button>
+    <button class="blog-carousel-dot" aria-label="Slide 4"></button>
+    <button class="blog-carousel-dot" aria-label="Slide 5"></button>
+    <button class="blog-carousel-dot" aria-label="Slide 6"></button>
+    <button class="blog-carousel-dot" aria-label="Slide 7"></button>
+    <button class="blog-carousel-dot" aria-label="Slide 8"></button>
+    <button class="blog-carousel-dot" aria-label="Slide 9"></button>
+    <button class="blog-carousel-dot" aria-label="Slide 10"></button>
+  </div>
+</div>

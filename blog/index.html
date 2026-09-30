@@ -1,34 +1,30 @@
 ---
-layout: page
-title: "Music Tips & Lessons Blog"
-subtitle: "News, student recital recitals, practice tips, and music advice from the Wylie School of Music"
-description: "Explore music tips, student recital highlights, and lesson guidance from the expert instructors at Wylie School of Music."
+layout: default
+title: "Music Tips & Lessons Blog | Wylie School of Music"
+description: "Discover expert tips, music lesson guides, and practice advice from Wylie School of Music. Read our latest blog posts and improve your skills!"
 header_theme: "white"
 ---
-<section class="section section-light">
-  <div class="container">
-    <div class="blog-grid">
-      {% for post in site.posts %}
-      <article class="blog-card">
-        {% if post.featured_image %}
-        <a href="{{ site.baseurl }}{{ post.url }}" class="blog-card-img-link">
-          <img src="{{ site.baseurl }}{{ post.featured_image }}" alt="{{ post.title }}" class="blog-card-img" loading="lazy">
-        </a>
-        {% endif %}
-        <div class="blog-card-body">
-          <time class="blog-card-date" datetime="{{ post.date | date_to_xmlschema }}">
-            {{ post.date | date: "%B %-d, %Y" }}
-          </time>
-          <h2 class="blog-card-title">
-            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-          </h2>
-          <p class="blog-card-excerpt">
-            {{ post.excerpt | strip_html | truncate: 140 }}
-          </p>
-          <a href="{{ site.baseurl }}{{ post.url }}" class="btn btn-outline" style="align-self: flex-start; padding: 0.4rem 1rem; font-size: 0.85rem; margin-top: auto;">Read Article</a>
-        </div>
-      </article>
-      {% endfor %}
+<div class="blog-masonry-wrapper">
+  {% for post in site.posts %}
+  <article class="blog-item">
+    {% if post.featured_image %}
+    <div class="blog-image-wrapper">
+      <a href="{{ site.baseurl }}{{ post.url }}" class="image-wrapper">
+        <img src="{{ site.baseurl }}{{ post.featured_image }}" alt="{{ post.title }}" loading="lazy">
+      </a>
     </div>
-  </div>
-</section>
+    {% endif %}
+    <div class="blog-item-summary">
+      <div class="blog-meta-section">
+        <time class="blog-date" datetime="{{ post.date | date_to_xmlschema }}">
+          {{ post.date | date: "%-m/%-d/%y" }}
+        </time>
+      </div>
+      <h2 class="blog-title">
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      </h2>
+      <a class="blog-more-link" href="{{ site.baseurl }}{{ post.url }}">Read More</a>
+    </div>
+  </article>
+  {% endfor %}
+</div>
