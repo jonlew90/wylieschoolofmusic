@@ -1,5 +1,13 @@
 // Navigation & Interactive Enhancements
 document.addEventListener('DOMContentLoaded', () => {
+  // Ensure animation state is booted immediately to prevent any deferred rendering delay
+  document.body.setAttribute('data-animation-state', 'booted');
+
+  // Reveal all gallery grid images immediately
+  document.querySelectorAll('.gallery-grid-item').forEach(item => {
+    item.setAttribute('data-show', 'true');
+  });
+
   // 1. Mobile Burger Toggle for Squarespace Header
   const burgerBtns = document.querySelectorAll('.header-burger-btn, [data-test="header-burger"]');
   const body = document.body;
