@@ -42,6 +42,13 @@ collections:
     output: true
     permalink: /blog/:title/
 
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      header_theme: "white"
+
 exclude:
   - README.md
   - scratch
