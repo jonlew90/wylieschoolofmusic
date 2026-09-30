@@ -16,4 +16,4 @@ excerpt: "Rock Shop Bands Live This Saturday!  🎶"
 
 <p> Learn more about our Rock Shop program here: <a href="https://wylieschoolofmusic.com/bands" target="_new">https://wylieschoolofmusic.com/bands</a></p>
 
-<img src="{{ site.baseurl }}/assets/images/Rock_Shop_Concert.png" alt="Rock Shop Concert" loading="lazy">
+<img src="{{ site.baseurl }}/assets/images/Rock_Shop_Concert.png" alt="Rock Shop Concert" loading="lazy" decoding="async">

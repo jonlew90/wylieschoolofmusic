@@ -6,29 +6,9 @@ featured_image: "/assets/images/6D3279F2-142E-4D4F-B868-D97943B22442.jpeg"
 excerpt: "Have you ever found yourself tapping out a rhythm on your desk or nodding your head to the beat of a favorite song? There’s something inherently exciting abo..."
 ---
 
-<img src="{{ site.baseurl }}/assets/images/6D3279F2-142E-4D4F-B868-D97943B22442.jpeg"    alt="" elementtiming="system-image-block" data-sqsp-image-classic-block-image src="{{ site.baseurl }}/assets/images/6D3279F2-142E-4D4F-B868-D97943B22442.jpeg" width="4353" height="2902" alt="" sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 100vw" onload="this.classList.add(&quot;loaded&quot;)" srcset="{{ site.baseurl }}/assets/images/6D3279F2-142E-4D4F-B868-D97943B22442.jpeg?format=100w 100w, {{ site.baseurl }}/assets/images/6D3279F2-142E-4D4F-B868-D97943B22442.jpeg?format=300w 300w, {{ site.baseurl }}/assets/images/6D3279F2-142E-4D4F-B868-D97943B22442.jpeg?format=500w 500w, {{ site.baseurl }}/assets/images/6D3279F2-142E-4D4F-B868-D97943B22442.jpeg?format=750w 750w, {{ site.baseurl }}/assets/images/6D3279F2-142E-4D4F-B868-D97943B22442.jpeg?format=1000w 1000w, {{ site.baseurl }}/assets/images/6D3279F2-142E-4D4F-B868-D97943B22442.jpeg?format=1500w 1500w, {{ site.baseurl }}/assets/images/6D3279F2-142E-4D4F-B868-D97943B22442.jpeg?format=2500w 2500w" loading="lazy" decoding="async">
+<img src="{{ site.baseurl }}/assets/images/6D3279F2-142E-4D4F-B868-D97943B22442.jpeg" alt="" srcset="{{ site.baseurl }}/assets/images/6D3279F2-142E-4D4F-B868-D97943B22442.jpeg?format=100w 100w, {{ site.baseurl }}/assets/images/6D3279F2-142E-4D4F-B868-D97943B22442.jpeg?format=300w 300w, {{ site.baseurl }}/assets/images/6D3279F2-142E-4D4F-B868-D97943B22442.jpeg?format=500w 500w, {{ site.baseurl }}/assets/images/6D3279F2-142E-4D4F-B868-D97943B22442.jpeg?format=750w 750w, {{ site.baseurl }}/assets/images/6D3279F2-142E-4D4F-B868-D97943B22442.jpeg?format=1000w 1000w, {{ site.baseurl }}/assets/images/6D3279F2-142E-4D4F-B868-D97943B22442.jpeg?format=1500w 1500w, {{ site.baseurl }}/assets/images/6D3279F2-142E-4D4F-B868-D97943B22442.jpeg?format=2500w 2500w" width="4353" height="2902" loading="lazy" decoding="async">
 
-            </div>
-          </div>
-        
-          
-        
-
-        
-      
-        </figure>
-      
-
-    </div>
-  
-
-
-  
-
-
-</div></div><div><div><div>
-  
-  <div data-sqsp-text-block-content><p>Have you ever found yourself tapping out a rhythm on your desk or nodding your head to the beat of a favorite song? There’s something inherently exciting about the drums—they’re the pulse of music, the heartbeat that keeps everything moving. If you've ever thought about learning to play the drums, you're in for an incredible journey. Here’s why picking up the sticks is a decision you won’t regret.</p>
+<p>Have you ever found yourself tapping out a rhythm on your desk or nodding your head to the beat of a favorite song? There’s something inherently exciting about the drums—they’re the pulse of music, the heartbeat that keeps everything moving. If you've ever thought about learning to play the drums, you're in for an incredible journey. Here’s why picking up the sticks is a decision you won’t regret.</p>
 
 <p><strong>1. A Full-Body Workout for Your Mind and Body</strong><br>Drumming is not just a musical skill—it’s a workout! Playing the drums engages your entire body, improving coordination, strength, and endurance. Each limb works independently, which enhances motor skills and balance. Plus, it’s a fantastic way to burn calories while having fun.</p>
 

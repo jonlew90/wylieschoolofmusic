@@ -77,16 +77,16 @@ excerpt: "<p style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\">Ju
 <p>If you’re local, this is exactly the kind of thing we teach beginners every day at <strong>Wylie School of Music</strong>.  You don’t need experience—just a guitar and a little curiosity.  Reach out to schedule a <strong>free trial lesson</strong>, and let’s get strumming!</p>
 
 <div class="blog-gallery-grid">
-  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/-057GRE_9147.jpeg" alt="Guitar Student at Wylie School of Music" loading="lazy"></div>
-  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/263GRE_4365.jpeg" alt="Guitar Student at Wylie School of Music" loading="lazy"></div>
-  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/383GRE_4499.jpeg" alt="Guitar Student at Wylie School of Music" loading="lazy"></div>
-  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/Annabelle491.jpeg" alt="Guitar Student at Wylie School of Music" loading="lazy"></div>
-  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/GLW-122.jpeg" alt="Guitar Student at Wylie School of Music" loading="lazy"></div>
-  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/GLW-240.jpeg" alt="Guitar Student at Wylie School of Music" loading="lazy"></div>
-  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/GLW-309.jpeg" alt="Guitar Student at Wylie School of Music" loading="lazy"></div>
-  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/Hadassah_2571.jpeg" alt="Guitar Student at Wylie School of Music" loading="lazy"></div>
-  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/IMG_9986.jpeg" alt="Guitar Student at Wylie School of Music" loading="lazy"></div>
-  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/Savannah_2370.jpeg" alt="Guitar Student at Wylie School of Music" loading="lazy"></div>
-  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/GLW-229.jpeg" alt="Guitar Student at Wylie School of Music" loading="lazy"></div>
-  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/GLW-282.jpeg" alt="Guitar Student at Wylie School of Music" loading="lazy"></div>
+  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/-057GRE_9147.jpeg" alt="Guitar Student at Wylie School of Music" loading="lazy" decoding="async"></div>
+  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/263GRE_4365.jpeg" alt="Guitar Student at Wylie School of Music" loading="lazy" decoding="async"></div>
+  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/383GRE_4499.jpeg" alt="Guitar Student at Wylie School of Music" loading="lazy" decoding="async"></div>
+  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/Annabelle491.jpeg" alt="Guitar Student at Wylie School of Music" loading="lazy" decoding="async"></div>
+  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/GLW-122.jpeg" alt="Guitar Student at Wylie School of Music" loading="lazy" decoding="async"></div>
+  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/GLW-240.jpeg" alt="Guitar Student at Wylie School of Music" loading="lazy" decoding="async"></div>
+  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/GLW-309.jpeg" alt="Guitar Student at Wylie School of Music" loading="lazy" decoding="async"></div>
+  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/Hadassah_2571.jpeg" alt="Guitar Student at Wylie School of Music" loading="lazy" decoding="async"></div>
+  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/IMG_9986.jpeg" alt="Guitar Student at Wylie School of Music" loading="lazy" decoding="async"></div>
+  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/Savannah_2370.jpeg" alt="Guitar Student at Wylie School of Music" loading="lazy" decoding="async"></div>
+  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/GLW-229.jpeg" alt="Guitar Student at Wylie School of Music" loading="lazy" decoding="async"></div>
+  <div class="blog-gallery-item"><img src="{{ site.baseurl }}/assets/images/GLW-282.jpeg" alt="Guitar Student at Wylie School of Music" loading="lazy" decoding="async"></div>
 </div>

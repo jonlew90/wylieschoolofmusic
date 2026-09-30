@@ -14,18 +14,8 @@ excerpt: "One of the questions we hear from parents is whether their child shoul
 
 <p>At Wylie School of Music, we believe performance opportunities should be encouraging, not intimidating. Whether a student is playing their very first song or has been taking lessons for years, performing can be a valuable part of the learning process—but only when the environment is supportive and pressure-free.</p>
 
-<img src="{{ site.baseurl }}/assets/images/BD1ABC70-EAD7-4D89-A706-BAF7F3B1BE31.jpeg"    alt="" elementtiming="system-image-block" data-sqsp-image-classic-block-image src="{{ site.baseurl }}/assets/images/BD1ABC70-EAD7-4D89-A706-BAF7F3B1BE31.jpeg" width="3817" height="2545" alt="" sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 100vw" onload="this.classList.add(&quot;loaded&quot;)" srcset="{{ site.baseurl }}/assets/images/BD1ABC70-EAD7-4D89-A706-BAF7F3B1BE31.jpeg?format=100w 100w, {{ site.baseurl }}/assets/images/BD1ABC70-EAD7-4D89-A706-BAF7F3B1BE31.jpeg?format=300w 300w, {{ site.baseurl }}/assets/images/BD1ABC70-EAD7-4D89-A706-BAF7F3B1BE31.jpeg?format=500w 500w, {{ site.baseurl }}/assets/images/BD1ABC70-EAD7-4D89-A706-BAF7F3B1BE31.jpeg?format=750w 750w, {{ site.baseurl }}/assets/images/BD1ABC70-EAD7-4D89-A706-BAF7F3B1BE31.jpeg?format=1000w 1000w, {{ site.baseurl }}/assets/images/BD1ABC70-EAD7-4D89-A706-BAF7F3B1BE31.jpeg?format=1500w 1500w, {{ site.baseurl }}/assets/images/BD1ABC70-EAD7-4D89-A706-BAF7F3B1BE31.jpeg?format=2500w 2500w" loading="lazy" decoding="async">
-
-            </div>
-          </div>
-        
-          
-        
-
-        
-          
-          <figcaption data-sqsp-image-classic-block-caption-container>
-            <div><p>Wylie School of Music - Fall Recital</p>
+<img src="{{ site.baseurl }}/assets/images/BD1ABC70-EAD7-4D89-A706-BAF7F3B1BE31.jpeg" alt="" srcset="{{ site.baseurl }}/assets/images/BD1ABC70-EAD7-4D89-A706-BAF7F3B1BE31.jpeg?format=100w 100w, {{ site.baseurl }}/assets/images/BD1ABC70-EAD7-4D89-A706-BAF7F3B1BE31.jpeg?format=300w 300w, {{ site.baseurl }}/assets/images/BD1ABC70-EAD7-4D89-A706-BAF7F3B1BE31.jpeg?format=500w 500w, {{ site.baseurl }}/assets/images/BD1ABC70-EAD7-4D89-A706-BAF7F3B1BE31.jpeg?format=750w 750w, {{ site.baseurl }}/assets/images/BD1ABC70-EAD7-4D89-A706-BAF7F3B1BE31.jpeg?format=1000w 1000w, {{ site.baseurl }}/assets/images/BD1ABC70-EAD7-4D89-A706-BAF7F3B1BE31.jpeg?format=1500w 1500w, {{ site.baseurl }}/assets/images/BD1ABC70-EAD7-4D89-A706-BAF7F3B1BE31.jpeg?format=2500w 2500w" width="3817" height="2545" loading="lazy" decoding="async">
+<p class="image-caption"><em>Wylie School of Music - Fall Recital</em></p>
 
 <h4>A Goal Makes Practice More Meaningful</h4>
 
@@ -39,18 +29,8 @@ excerpt: "One of the questions we hear from parents is whether their child shoul
 
 <p>That small shift often leads to more focused and consistent practice.</p>
 
-<img src="{{ site.baseurl }}/assets/images/8BA8BEB8-E342-4545-B275-720BFDA149C7.jpeg"    alt="" elementtiming="system-image-block" data-sqsp-image-classic-block-image src="{{ site.baseurl }}/assets/images/8BA8BEB8-E342-4545-B275-720BFDA149C7.jpeg" width="3033" height="2022" alt="" sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 100vw" onload="this.classList.add(&quot;loaded&quot;)" srcset="{{ site.baseurl }}/assets/images/8BA8BEB8-E342-4545-B275-720BFDA149C7.jpeg?format=100w 100w, {{ site.baseurl }}/assets/images/8BA8BEB8-E342-4545-B275-720BFDA149C7.jpeg?format=300w 300w, {{ site.baseurl }}/assets/images/8BA8BEB8-E342-4545-B275-720BFDA149C7.jpeg?format=500w 500w, {{ site.baseurl }}/assets/images/8BA8BEB8-E342-4545-B275-720BFDA149C7.jpeg?format=750w 750w, {{ site.baseurl }}/assets/images/8BA8BEB8-E342-4545-B275-720BFDA149C7.jpeg?format=1000w 1000w, {{ site.baseurl }}/assets/images/8BA8BEB8-E342-4545-B275-720BFDA149C7.jpeg?format=1500w 1500w, {{ site.baseurl }}/assets/images/8BA8BEB8-E342-4545-B275-720BFDA149C7.jpeg?format=2500w 2500w" loading="lazy" decoding="async">
-
-            </div>
-          </div>
-        
-          
-        
-
-        
-          
-          <figcaption data-sqsp-image-classic-block-caption-container>
-            <div><p>Wylie School of Music - Spring Recital</p>
+<img src="{{ site.baseurl }}/assets/images/8BA8BEB8-E342-4545-B275-720BFDA149C7.jpeg" alt="" srcset="{{ site.baseurl }}/assets/images/8BA8BEB8-E342-4545-B275-720BFDA149C7.jpeg?format=100w 100w, {{ site.baseurl }}/assets/images/8BA8BEB8-E342-4545-B275-720BFDA149C7.jpeg?format=300w 300w, {{ site.baseurl }}/assets/images/8BA8BEB8-E342-4545-B275-720BFDA149C7.jpeg?format=500w 500w, {{ site.baseurl }}/assets/images/8BA8BEB8-E342-4545-B275-720BFDA149C7.jpeg?format=750w 750w, {{ site.baseurl }}/assets/images/8BA8BEB8-E342-4545-B275-720BFDA149C7.jpeg?format=1000w 1000w, {{ site.baseurl }}/assets/images/8BA8BEB8-E342-4545-B275-720BFDA149C7.jpeg?format=1500w 1500w, {{ site.baseurl }}/assets/images/8BA8BEB8-E342-4545-B275-720BFDA149C7.jpeg?format=2500w 2500w" width="3033" height="2022" loading="lazy" decoding="async">
+<p class="image-caption"><em>Wylie School of Music - Spring Recital</em></p>
 
 <h4>You Don't Have to Be an Advanced Musician</h4>
 
@@ -62,18 +42,8 @@ excerpt: "One of the questions we hear from parents is whether their child shoul
 
 <p>Many audience members are parents, grandparents, friends, and fellow students who simply enjoy seeing people make music.</p>
 
-<img src="{{ site.baseurl }}/assets/images/7888E064-7A66-4509-BB90-2F833BA5ADDC.jpeg"    alt="" elementtiming="system-image-block" data-sqsp-image-classic-block-image src="{{ site.baseurl }}/assets/images/7888E064-7A66-4509-BB90-2F833BA5ADDC.jpeg" width="7680" height="5760" alt="" sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 100vw" onload="this.classList.add(&quot;loaded&quot;)" srcset="{{ site.baseurl }}/assets/images/7888E064-7A66-4509-BB90-2F833BA5ADDC.jpeg?format=100w 100w, {{ site.baseurl }}/assets/images/7888E064-7A66-4509-BB90-2F833BA5ADDC.jpeg?format=300w 300w, {{ site.baseurl }}/assets/images/7888E064-7A66-4509-BB90-2F833BA5ADDC.jpeg?format=500w 500w, {{ site.baseurl }}/assets/images/7888E064-7A66-4509-BB90-2F833BA5ADDC.jpeg?format=750w 750w, {{ site.baseurl }}/assets/images/7888E064-7A66-4509-BB90-2F833BA5ADDC.jpeg?format=1000w 1000w, {{ site.baseurl }}/assets/images/7888E064-7A66-4509-BB90-2F833BA5ADDC.jpeg?format=1500w 1500w, {{ site.baseurl }}/assets/images/7888E064-7A66-4509-BB90-2F833BA5ADDC.jpeg?format=2500w 2500w" loading="lazy" decoding="async">
-
-            </div>
-          </div>
-        
-          
-        
-
-        
-          
-          <figcaption data-sqsp-image-classic-block-caption-container>
-            <div><p>Summer Open Mic Night @ the Hub</p>
+<img src="{{ site.baseurl }}/assets/images/7888E064-7A66-4509-BB90-2F833BA5ADDC.jpeg" alt="" srcset="{{ site.baseurl }}/assets/images/7888E064-7A66-4509-BB90-2F833BA5ADDC.jpeg?format=100w 100w, {{ site.baseurl }}/assets/images/7888E064-7A66-4509-BB90-2F833BA5ADDC.jpeg?format=300w 300w, {{ site.baseurl }}/assets/images/7888E064-7A66-4509-BB90-2F833BA5ADDC.jpeg?format=500w 500w, {{ site.baseurl }}/assets/images/7888E064-7A66-4509-BB90-2F833BA5ADDC.jpeg?format=750w 750w, {{ site.baseurl }}/assets/images/7888E064-7A66-4509-BB90-2F833BA5ADDC.jpeg?format=1000w 1000w, {{ site.baseurl }}/assets/images/7888E064-7A66-4509-BB90-2F833BA5ADDC.jpeg?format=1500w 1500w, {{ site.baseurl }}/assets/images/7888E064-7A66-4509-BB90-2F833BA5ADDC.jpeg?format=2500w 2500w" width="7680" height="5760" loading="lazy" decoding="async">
+<p class="image-caption"><em>Summer Open Mic Night @ the Hub</em></p>
 
 <h4>Learning to Recover Is Part of Becoming a Musician</h4>
 
@@ -85,18 +55,8 @@ excerpt: "One of the questions we hear from parents is whether their child shoul
 
 <p>Students learn to keep going, smile, and finish the song. Ironically, those moments often build more musical maturity than playing everything perfectly in the practice room.</p>
 
-<img src="{{ site.baseurl }}/assets/images/3148702B-BF44-4F3A-8D5A-6F910D06A2E7_1_201_a.jpeg"    alt="" elementtiming="system-image-block" data-sqsp-image-classic-block-image src="{{ site.baseurl }}/assets/images/3148702B-BF44-4F3A-8D5A-6F910D06A2E7_1_201_a.jpeg" width="5354" height="2882" alt="" sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 100vw" onload="this.classList.add(&quot;loaded&quot;)" srcset="{{ site.baseurl }}/assets/images/3148702B-BF44-4F3A-8D5A-6F910D06A2E7_1_201_a.jpeg?format=100w 100w, {{ site.baseurl }}/assets/images/3148702B-BF44-4F3A-8D5A-6F910D06A2E7_1_201_a.jpeg?format=300w 300w, {{ site.baseurl }}/assets/images/3148702B-BF44-4F3A-8D5A-6F910D06A2E7_1_201_a.jpeg?format=500w 500w, {{ site.baseurl }}/assets/images/3148702B-BF44-4F3A-8D5A-6F910D06A2E7_1_201_a.jpeg?format=750w 750w, {{ site.baseurl }}/assets/images/3148702B-BF44-4F3A-8D5A-6F910D06A2E7_1_201_a.jpeg?format=1000w 1000w, {{ site.baseurl }}/assets/images/3148702B-BF44-4F3A-8D5A-6F910D06A2E7_1_201_a.jpeg?format=1500w 1500w, {{ site.baseurl }}/assets/images/3148702B-BF44-4F3A-8D5A-6F910D06A2E7_1_201_a.jpeg?format=2500w 2500w" loading="lazy" decoding="async">
-
-            </div>
-          </div>
-        
-          
-        
-
-        
-          
-          <figcaption data-sqsp-image-classic-block-caption-container>
-            <div><p>Wylie School of Music - 2022 Spring Recital</p>
+<img src="{{ site.baseurl }}/assets/images/3148702B-BF44-4F3A-8D5A-6F910D06A2E7_1_201_a.jpeg" alt="" srcset="{{ site.baseurl }}/assets/images/3148702B-BF44-4F3A-8D5A-6F910D06A2E7_1_201_a.jpeg?format=100w 100w, {{ site.baseurl }}/assets/images/3148702B-BF44-4F3A-8D5A-6F910D06A2E7_1_201_a.jpeg?format=300w 300w, {{ site.baseurl }}/assets/images/3148702B-BF44-4F3A-8D5A-6F910D06A2E7_1_201_a.jpeg?format=500w 500w, {{ site.baseurl }}/assets/images/3148702B-BF44-4F3A-8D5A-6F910D06A2E7_1_201_a.jpeg?format=750w 750w, {{ site.baseurl }}/assets/images/3148702B-BF44-4F3A-8D5A-6F910D06A2E7_1_201_a.jpeg?format=1000w 1000w, {{ site.baseurl }}/assets/images/3148702B-BF44-4F3A-8D5A-6F910D06A2E7_1_201_a.jpeg?format=1500w 1500w, {{ site.baseurl }}/assets/images/3148702B-BF44-4F3A-8D5A-6F910D06A2E7_1_201_a.jpeg?format=2500w 2500w" width="5354" height="2882" loading="lazy" decoding="async">
+<p class="image-caption"><em>Wylie School of Music - 2022 Spring Recital</em></p>
 
 <h4>Performing Isn't Required</h4>
 
@@ -112,18 +72,8 @@ excerpt: "One of the questions we hear from parents is whether their child shoul
 
 <p>Nobody should ever feel pressured to perform before they're ready.</p>
 
-<img src="{{ site.baseurl }}/assets/images/14574CB5-F8C2-40D1-8C34-916775A8AD14.jpeg"    alt="" elementtiming="system-image-block" data-sqsp-image-classic-block-image src="{{ site.baseurl }}/assets/images/14574CB5-F8C2-40D1-8C34-916775A8AD14.jpeg" width="4669" height="3113" alt="" sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 100vw" onload="this.classList.add(&quot;loaded&quot;)" srcset="{{ site.baseurl }}/assets/images/14574CB5-F8C2-40D1-8C34-916775A8AD14.jpeg?format=100w 100w, {{ site.baseurl }}/assets/images/14574CB5-F8C2-40D1-8C34-916775A8AD14.jpeg?format=300w 300w, {{ site.baseurl }}/assets/images/14574CB5-F8C2-40D1-8C34-916775A8AD14.jpeg?format=500w 500w, {{ site.baseurl }}/assets/images/14574CB5-F8C2-40D1-8C34-916775A8AD14.jpeg?format=750w 750w, {{ site.baseurl }}/assets/images/14574CB5-F8C2-40D1-8C34-916775A8AD14.jpeg?format=1000w 1000w, {{ site.baseurl }}/assets/images/14574CB5-F8C2-40D1-8C34-916775A8AD14.jpeg?format=1500w 1500w, {{ site.baseurl }}/assets/images/14574CB5-F8C2-40D1-8C34-916775A8AD14.jpeg?format=2500w 2500w" loading="lazy" decoding="async">
-
-            </div>
-          </div>
-        
-          
-        
-
-        
-          
-          <figcaption data-sqsp-image-classic-block-caption-container>
-            <div><p>Wylie School of Music - Fall Recital</p>
+<img src="{{ site.baseurl }}/assets/images/14574CB5-F8C2-40D1-8C34-916775A8AD14.jpeg" alt="" srcset="{{ site.baseurl }}/assets/images/14574CB5-F8C2-40D1-8C34-916775A8AD14.jpeg?format=100w 100w, {{ site.baseurl }}/assets/images/14574CB5-F8C2-40D1-8C34-916775A8AD14.jpeg?format=300w 300w, {{ site.baseurl }}/assets/images/14574CB5-F8C2-40D1-8C34-916775A8AD14.jpeg?format=500w 500w, {{ site.baseurl }}/assets/images/14574CB5-F8C2-40D1-8C34-916775A8AD14.jpeg?format=750w 750w, {{ site.baseurl }}/assets/images/14574CB5-F8C2-40D1-8C34-916775A8AD14.jpeg?format=1000w 1000w, {{ site.baseurl }}/assets/images/14574CB5-F8C2-40D1-8C34-916775A8AD14.jpeg?format=1500w 1500w, {{ site.baseurl }}/assets/images/14574CB5-F8C2-40D1-8C34-916775A8AD14.jpeg?format=2500w 2500w" width="4669" height="3113" loading="lazy" decoding="async">
+<p class="image-caption"><em>Wylie School of Music - Fall Recital</em></p>
 
 <h4>Why We Love Open Mic Events</h4>
 
@@ -133,18 +83,8 @@ excerpt: "One of the questions we hear from parents is whether their child shoul
 
 <p>It's a wonderful reminder that music isn't just something you practice—it's something you share.</p>
 
-<img src="{{ site.baseurl }}/assets/images/IMG_0089.jpeg"    alt="" elementtiming="system-image-block" data-sqsp-image-classic-block-image src="{{ site.baseurl }}/assets/images/IMG_0089.jpeg" width="4032" height="3024" alt="" sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 100vw" onload="this.classList.add(&quot;loaded&quot;)" srcset="{{ site.baseurl }}/assets/images/IMG_0089.jpeg?format=100w 100w, {{ site.baseurl }}/assets/images/IMG_0089.jpeg?format=300w 300w, {{ site.baseurl }}/assets/images/IMG_0089.jpeg?format=500w 500w, {{ site.baseurl }}/assets/images/IMG_0089.jpeg?format=750w 750w, {{ site.baseurl }}/assets/images/IMG_0089.jpeg?format=1000w 1000w, {{ site.baseurl }}/assets/images/IMG_0089.jpeg?format=1500w 1500w, {{ site.baseurl }}/assets/images/IMG_0089.jpeg?format=2500w 2500w" loading="lazy" decoding="async">
-
-            </div>
-          </div>
-        
-          
-        
-
-        
-          
-          <figcaption data-sqsp-image-classic-block-caption-container>
-            <div><p>Wylie School of Music - Open Mic Night</p>
+<img src="{{ site.baseurl }}/assets/images/IMG_0089.jpeg" alt="" srcset="{{ site.baseurl }}/assets/images/IMG_0089.jpeg?format=100w 100w, {{ site.baseurl }}/assets/images/IMG_0089.jpeg?format=300w 300w, {{ site.baseurl }}/assets/images/IMG_0089.jpeg?format=500w 500w, {{ site.baseurl }}/assets/images/IMG_0089.jpeg?format=750w 750w, {{ site.baseurl }}/assets/images/IMG_0089.jpeg?format=1000w 1000w, {{ site.baseurl }}/assets/images/IMG_0089.jpeg?format=1500w 1500w, {{ site.baseurl }}/assets/images/IMG_0089.jpeg?format=2500w 2500w" width="4032" height="3024" loading="lazy" decoding="async">
+<p class="image-caption"><em>Wylie School of Music - Open Mic Night</em></p>
 
 <h4>Music Is Better Together</h4>
 
@@ -158,29 +98,9 @@ excerpt: "One of the questions we hear from parents is whether their child shoul
 
 <p>Either way, every performance is another step in the musical journey.</p>
 
-<img src="{{ site.baseurl }}/assets/images/outside-1024x682.jpg"    alt="" elementtiming="system-image-block" data-sqsp-image-classic-block-image src="{{ site.baseurl }}/assets/images/outside-1024x682.jpg" width="1024" height="681" alt="" sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 100vw" onload="this.classList.add(&quot;loaded&quot;)" srcset="{{ site.baseurl }}/assets/images/outside-1024x682.jpg?format=100w 100w, {{ site.baseurl }}/assets/images/outside-1024x682.jpg?format=300w 300w, {{ site.baseurl }}/assets/images/outside-1024x682.jpg?format=500w 500w, {{ site.baseurl }}/assets/images/outside-1024x682.jpg?format=750w 750w, {{ site.baseurl }}/assets/images/outside-1024x682.jpg?format=1000w 1000w, {{ site.baseurl }}/assets/images/outside-1024x682.jpg?format=1500w 1500w, {{ site.baseurl }}/assets/images/outside-1024x682.jpg?format=2500w 2500w" loading="lazy" decoding="async">
+<img src="{{ site.baseurl }}/assets/images/outside-1024x682.jpg" alt="" srcset="{{ site.baseurl }}/assets/images/outside-1024x682.jpg?format=100w 100w, {{ site.baseurl }}/assets/images/outside-1024x682.jpg?format=300w 300w, {{ site.baseurl }}/assets/images/outside-1024x682.jpg?format=500w 500w, {{ site.baseurl }}/assets/images/outside-1024x682.jpg?format=750w 750w, {{ site.baseurl }}/assets/images/outside-1024x682.jpg?format=1000w 1000w, {{ site.baseurl }}/assets/images/outside-1024x682.jpg?format=1500w 1500w, {{ site.baseurl }}/assets/images/outside-1024x682.jpg?format=2500w 2500w" width="1024" height="681" loading="lazy" decoding="async">
 
-            </div>
-          </div>
-        
-          
-        
-
-        
-      
-        </figure>
-      
-
-    </div>
-  
-
-
-  
-
-
-</div></div><div data-website-component-><div><div>
-  
-  <div data-sqsp-text-block-content><h4>We'd Love to See You at Our Next Open Mic</h4>
+  <h4>We'd Love to See You at Our Next Open Mic</h4>
 
 <p>Our Open Mic events are open to students of all experience levels. Whether you'd like to perform or simply come listen, we'd love to have you join us.</p>
 

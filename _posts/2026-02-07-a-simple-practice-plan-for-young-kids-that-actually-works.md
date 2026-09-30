@@ -22,18 +22,8 @@ excerpt: "Learning an instrument is exciting for kids—but practice at home can
 
 <p>Short, positive practice sessions help kids stay motivated and avoid burnout.</p>
 
-<img src="{{ site.baseurl }}/assets/images/Guitar_Lessons_Wylie_Spring_2025-332.jpg"    alt="" elementtiming="system-image-block" data-sqsp-image-classic-block-image src="{{ site.baseurl }}/assets/images/Guitar_Lessons_Wylie_Spring_2025-332.jpg" width="4598" height="3065" alt="" sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 100vw" onload="this.classList.add(&quot;loaded&quot;)" srcset="{{ site.baseurl }}/assets/images/Guitar_Lessons_Wylie_Spring_2025-332.jpg?format=100w 100w, {{ site.baseurl }}/assets/images/Guitar_Lessons_Wylie_Spring_2025-332.jpg?format=300w 300w, {{ site.baseurl }}/assets/images/Guitar_Lessons_Wylie_Spring_2025-332.jpg?format=500w 500w, {{ site.baseurl }}/assets/images/Guitar_Lessons_Wylie_Spring_2025-332.jpg?format=750w 750w, {{ site.baseurl }}/assets/images/Guitar_Lessons_Wylie_Spring_2025-332.jpg?format=1000w 1000w, {{ site.baseurl }}/assets/images/Guitar_Lessons_Wylie_Spring_2025-332.jpg?format=1500w 1500w, {{ site.baseurl }}/assets/images/Guitar_Lessons_Wylie_Spring_2025-332.jpg?format=2500w 2500w" loading="lazy" decoding="async">
-
-            </div>
-          </div>
-        
-          
-        
-
-        
-          
-          <figcaption data-sqsp-image-classic-block-caption-container>
-            <div><p>Maddox performing at Wylie School of Music recital with her instructor, Steve.</p>
+<img src="{{ site.baseurl }}/assets/images/Guitar_Lessons_Wylie_Spring_2025-332.jpg" alt="" srcset="{{ site.baseurl }}/assets/images/Guitar_Lessons_Wylie_Spring_2025-332.jpg?format=100w 100w, {{ site.baseurl }}/assets/images/Guitar_Lessons_Wylie_Spring_2025-332.jpg?format=300w 300w, {{ site.baseurl }}/assets/images/Guitar_Lessons_Wylie_Spring_2025-332.jpg?format=500w 500w, {{ site.baseurl }}/assets/images/Guitar_Lessons_Wylie_Spring_2025-332.jpg?format=750w 750w, {{ site.baseurl }}/assets/images/Guitar_Lessons_Wylie_Spring_2025-332.jpg?format=1000w 1000w, {{ site.baseurl }}/assets/images/Guitar_Lessons_Wylie_Spring_2025-332.jpg?format=1500w 1500w, {{ site.baseurl }}/assets/images/Guitar_Lessons_Wylie_Spring_2025-332.jpg?format=2500w 2500w" width="4598" height="3065" loading="lazy" decoding="async">
+<p class="image-caption"><em>Maddox performing at Wylie School of Music recital with her instructor, Steve.</em></p>
 
 <h4>Aim for “Most Days,” Not Every Day</h4>
 
@@ -45,29 +35,9 @@ excerpt: "Learning an instrument is exciting for kids—but practice at home can
 
 <p>This builds progress without turning practice into a daily battle.</p>
 
-<img src="{{ site.baseurl }}/assets/images/67F14CF3-322D-4E77-BACA-B17EC4A099F0.jpeg"    alt="" elementtiming="system-image-block" data-sqsp-image-classic-block-image src="{{ site.baseurl }}/assets/images/67F14CF3-322D-4E77-BACA-B17EC4A099F0.jpeg" width="4500" height="3000" alt="" sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 100vw" onload="this.classList.add(&quot;loaded&quot;)" srcset="{{ site.baseurl }}/assets/images/67F14CF3-322D-4E77-BACA-B17EC4A099F0.jpeg?format=100w 100w, {{ site.baseurl }}/assets/images/67F14CF3-322D-4E77-BACA-B17EC4A099F0.jpeg?format=300w 300w, {{ site.baseurl }}/assets/images/67F14CF3-322D-4E77-BACA-B17EC4A099F0.jpeg?format=500w 500w, {{ site.baseurl }}/assets/images/67F14CF3-322D-4E77-BACA-B17EC4A099F0.jpeg?format=750w 750w, {{ site.baseurl }}/assets/images/67F14CF3-322D-4E77-BACA-B17EC4A099F0.jpeg?format=1000w 1000w, {{ site.baseurl }}/assets/images/67F14CF3-322D-4E77-BACA-B17EC4A099F0.jpeg?format=1500w 1500w, {{ site.baseurl }}/assets/images/67F14CF3-322D-4E77-BACA-B17EC4A099F0.jpeg?format=2500w 2500w" loading="lazy" decoding="async">
+<img src="{{ site.baseurl }}/assets/images/67F14CF3-322D-4E77-BACA-B17EC4A099F0.jpeg" alt="" srcset="{{ site.baseurl }}/assets/images/67F14CF3-322D-4E77-BACA-B17EC4A099F0.jpeg?format=100w 100w, {{ site.baseurl }}/assets/images/67F14CF3-322D-4E77-BACA-B17EC4A099F0.jpeg?format=300w 300w, {{ site.baseurl }}/assets/images/67F14CF3-322D-4E77-BACA-B17EC4A099F0.jpeg?format=500w 500w, {{ site.baseurl }}/assets/images/67F14CF3-322D-4E77-BACA-B17EC4A099F0.jpeg?format=750w 750w, {{ site.baseurl }}/assets/images/67F14CF3-322D-4E77-BACA-B17EC4A099F0.jpeg?format=1000w 1000w, {{ site.baseurl }}/assets/images/67F14CF3-322D-4E77-BACA-B17EC4A099F0.jpeg?format=1500w 1500w, {{ site.baseurl }}/assets/images/67F14CF3-322D-4E77-BACA-B17EC4A099F0.jpeg?format=2500w 2500w" width="4500" height="3000" loading="lazy" decoding="async">
 
-            </div>
-          </div>
-        
-          
-        
-
-        
-      
-        </figure>
-      
-
-    </div>
-  
-
-
-  
-
-
-</div></div><div data-website-component-><div><div>
-  
-  <div data-sqsp-text-block-content><h4> Focus on One Small Goal</h4>
+  <h4> Focus on One Small Goal</h4>
 
 <p>Instead of trying to practice everything at once, focus on <strong>one small thing</strong> per session:</p>
 
@@ -79,29 +49,9 @@ excerpt: "Learning an instrument is exciting for kids—but practice at home can
 
 <p>Small wins lead to big confidence.</p>
 
-<img src="{{ site.baseurl }}/assets/images/7DA3CA8D-F546-47C5-8956-B8C897227DFC.jpeg"    alt="" elementtiming="system-image-block" data-sqsp-image-classic-block-image src="{{ site.baseurl }}/assets/images/7DA3CA8D-F546-47C5-8956-B8C897227DFC.jpeg" width="4500" height="3000" alt="" sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 100vw" onload="this.classList.add(&quot;loaded&quot;)" srcset="{{ site.baseurl }}/assets/images/7DA3CA8D-F546-47C5-8956-B8C897227DFC.jpeg?format=100w 100w, {{ site.baseurl }}/assets/images/7DA3CA8D-F546-47C5-8956-B8C897227DFC.jpeg?format=300w 300w, {{ site.baseurl }}/assets/images/7DA3CA8D-F546-47C5-8956-B8C897227DFC.jpeg?format=500w 500w, {{ site.baseurl }}/assets/images/7DA3CA8D-F546-47C5-8956-B8C897227DFC.jpeg?format=750w 750w, {{ site.baseurl }}/assets/images/7DA3CA8D-F546-47C5-8956-B8C897227DFC.jpeg?format=1000w 1000w, {{ site.baseurl }}/assets/images/7DA3CA8D-F546-47C5-8956-B8C897227DFC.jpeg?format=1500w 1500w, {{ site.baseurl }}/assets/images/7DA3CA8D-F546-47C5-8956-B8C897227DFC.jpeg?format=2500w 2500w" loading="lazy" decoding="async">
+<img src="{{ site.baseurl }}/assets/images/7DA3CA8D-F546-47C5-8956-B8C897227DFC.jpeg" alt="" srcset="{{ site.baseurl }}/assets/images/7DA3CA8D-F546-47C5-8956-B8C897227DFC.jpeg?format=100w 100w, {{ site.baseurl }}/assets/images/7DA3CA8D-F546-47C5-8956-B8C897227DFC.jpeg?format=300w 300w, {{ site.baseurl }}/assets/images/7DA3CA8D-F546-47C5-8956-B8C897227DFC.jpeg?format=500w 500w, {{ site.baseurl }}/assets/images/7DA3CA8D-F546-47C5-8956-B8C897227DFC.jpeg?format=750w 750w, {{ site.baseurl }}/assets/images/7DA3CA8D-F546-47C5-8956-B8C897227DFC.jpeg?format=1000w 1000w, {{ site.baseurl }}/assets/images/7DA3CA8D-F546-47C5-8956-B8C897227DFC.jpeg?format=1500w 1500w, {{ site.baseurl }}/assets/images/7DA3CA8D-F546-47C5-8956-B8C897227DFC.jpeg?format=2500w 2500w" width="4500" height="3000" loading="lazy" decoding="async">
 
-            </div>
-          </div>
-        
-          
-        
-
-        
-      
-        </figure>
-      
-
-    </div>
-  
-
-
-  
-
-
-</div></div><div data-website-component-><div><div>
-  
-  <div data-sqsp-text-block-content><h4>Parent Involvement (Just a Little!)</h4>
+  <h4>Parent Involvement (Just a Little!)</h4>
 
 <p>You don’t need to play music to help your child succeed.</p>
 
@@ -115,18 +65,8 @@ excerpt: "Learning an instrument is exciting for kids—but practice at home can
 
 <p>Your presence shows that music is important—and makes practice feel supported.</p>
 
-<img src="{{ site.baseurl }}/assets/images/Spring_Rock_Shop_Echo_-_8.jpeg"    alt="" elementtiming="system-image-block" data-sqsp-image-classic-block-image src="{{ site.baseurl }}/assets/images/Spring_Rock_Shop_Echo_-_8.jpeg" width="1280" height="960" alt="" sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 100vw" onload="this.classList.add(&quot;loaded&quot;)" srcset="{{ site.baseurl }}/assets/images/Spring_Rock_Shop_Echo_-_8.jpeg?format=100w 100w, {{ site.baseurl }}/assets/images/Spring_Rock_Shop_Echo_-_8.jpeg?format=300w 300w, {{ site.baseurl }}/assets/images/Spring_Rock_Shop_Echo_-_8.jpeg?format=500w 500w, {{ site.baseurl }}/assets/images/Spring_Rock_Shop_Echo_-_8.jpeg?format=750w 750w, {{ site.baseurl }}/assets/images/Spring_Rock_Shop_Echo_-_8.jpeg?format=1000w 1000w, {{ site.baseurl }}/assets/images/Spring_Rock_Shop_Echo_-_8.jpeg?format=1500w 1500w, {{ site.baseurl }}/assets/images/Spring_Rock_Shop_Echo_-_8.jpeg?format=2500w 2500w" loading="lazy" decoding="async">
-
-            </div>
-          </div>
-        
-          
-        
-
-        
-          
-          <figcaption data-sqsp-image-classic-block-caption-container>
-            <div><p>Wylie School of Music - Camp Rock Shop 2025</p>
+<img src="{{ site.baseurl }}/assets/images/Spring_Rock_Shop_Echo_-_8.jpeg" alt="" srcset="{{ site.baseurl }}/assets/images/Spring_Rock_Shop_Echo_-_8.jpeg?format=100w 100w, {{ site.baseurl }}/assets/images/Spring_Rock_Shop_Echo_-_8.jpeg?format=300w 300w, {{ site.baseurl }}/assets/images/Spring_Rock_Shop_Echo_-_8.jpeg?format=500w 500w, {{ site.baseurl }}/assets/images/Spring_Rock_Shop_Echo_-_8.jpeg?format=750w 750w, {{ site.baseurl }}/assets/images/Spring_Rock_Shop_Echo_-_8.jpeg?format=1000w 1000w, {{ site.baseurl }}/assets/images/Spring_Rock_Shop_Echo_-_8.jpeg?format=1500w 1500w, {{ site.baseurl }}/assets/images/Spring_Rock_Shop_Echo_-_8.jpeg?format=2500w 2500w" width="1280" height="960" loading="lazy" decoding="async">
+<p class="image-caption"><em>Wylie School of Music - Camp Rock Shop 2025</em></p>
 
 <h4> Always End on a Win</h4>
 
@@ -138,29 +78,9 @@ excerpt: "Learning an instrument is exciting for kids—but practice at home can
 
 <p>Ending on a success helps kids feel proud and excited to come back tomorrow.</p>
 
-<img src="{{ site.baseurl }}/assets/images/2D0C3F60-FA83-498F-856F-2AA56E06C038_1_201_a.jpeg"    alt="" elementtiming="system-image-block" data-sqsp-image-classic-block-image src="{{ site.baseurl }}/assets/images/2D0C3F60-FA83-498F-856F-2AA56E06C038_1_201_a.jpeg" width="4016" height="6016" alt="" sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 100vw" onload="this.classList.add(&quot;loaded&quot;)" srcset="{{ site.baseurl }}/assets/images/2D0C3F60-FA83-498F-856F-2AA56E06C038_1_201_a.jpeg?format=100w 100w, {{ site.baseurl }}/assets/images/2D0C3F60-FA83-498F-856F-2AA56E06C038_1_201_a.jpeg?format=300w 300w, {{ site.baseurl }}/assets/images/2D0C3F60-FA83-498F-856F-2AA56E06C038_1_201_a.jpeg?format=500w 500w, {{ site.baseurl }}/assets/images/2D0C3F60-FA83-498F-856F-2AA56E06C038_1_201_a.jpeg?format=750w 750w, {{ site.baseurl }}/assets/images/2D0C3F60-FA83-498F-856F-2AA56E06C038_1_201_a.jpeg?format=1000w 1000w, {{ site.baseurl }}/assets/images/2D0C3F60-FA83-498F-856F-2AA56E06C038_1_201_a.jpeg?format=1500w 1500w, {{ site.baseurl }}/assets/images/2D0C3F60-FA83-498F-856F-2AA56E06C038_1_201_a.jpeg?format=2500w 2500w" loading="lazy" decoding="async">
+<img src="{{ site.baseurl }}/assets/images/2D0C3F60-FA83-498F-856F-2AA56E06C038_1_201_a.jpeg" alt="" srcset="{{ site.baseurl }}/assets/images/2D0C3F60-FA83-498F-856F-2AA56E06C038_1_201_a.jpeg?format=100w 100w, {{ site.baseurl }}/assets/images/2D0C3F60-FA83-498F-856F-2AA56E06C038_1_201_a.jpeg?format=300w 300w, {{ site.baseurl }}/assets/images/2D0C3F60-FA83-498F-856F-2AA56E06C038_1_201_a.jpeg?format=500w 500w, {{ site.baseurl }}/assets/images/2D0C3F60-FA83-498F-856F-2AA56E06C038_1_201_a.jpeg?format=750w 750w, {{ site.baseurl }}/assets/images/2D0C3F60-FA83-498F-856F-2AA56E06C038_1_201_a.jpeg?format=1000w 1000w, {{ site.baseurl }}/assets/images/2D0C3F60-FA83-498F-856F-2AA56E06C038_1_201_a.jpeg?format=1500w 1500w, {{ site.baseurl }}/assets/images/2D0C3F60-FA83-498F-856F-2AA56E06C038_1_201_a.jpeg?format=2500w 2500w" width="4016" height="6016" loading="lazy" decoding="async">
 
-            </div>
-          </div>
-        
-          
-        
-
-        
-      
-        </figure>
-      
-
-    </div>
-  
-
-
-  
-
-
-</div></div><div data-website-component-><div><div>
-  
-  <div data-sqsp-text-block-content><h4>The Big Picture</h4>
+  <h4>The Big Picture</h4>
 
 <p>For young students, our main goals are:</p>
 
@@ -174,4 +94,4 @@ excerpt: "Learning an instrument is exciting for kids—but practice at home can
 
 <p>If you ever feel unsure about how to help with practice at home, just ask your teacher. We’re always happy to guide you.</p>
 
-<img src="{{ site.baseurl }}/assets/images/Spencer.jpg" alt="A Simple Practice Plan for Young Kids" loading="lazy">
+<img src="{{ site.baseurl }}/assets/images/Spencer.jpg" alt="A Simple Practice Plan for Young Kids" loading="lazy" decoding="async">

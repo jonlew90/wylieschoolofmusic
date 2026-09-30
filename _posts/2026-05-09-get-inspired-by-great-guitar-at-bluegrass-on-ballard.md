@@ -14,4 +14,4 @@ excerpt: "If you love great guitar playing,  Bluegrass on Ballard  is an event y
 
 <p>At <strong>Wylie School of Music</strong>, we always encourage students to listen to live music whenever they can. If you’re looking for a fun family event in <strong>Wylie, Texas</strong>, Bluegrass on Ballard is the perfect place to enjoy great music and maybe even feel inspired to start learning guitar. </p>
 
-<img src="{{ site.baseurl }}/assets/images/BluegrassonBallard.jpg" alt="Bluegrass on Ballard" loading="lazy">
+<img src="{{ site.baseurl }}/assets/images/BluegrassonBallard.jpg" alt="Bluegrass on Ballard" loading="lazy" decoding="async">

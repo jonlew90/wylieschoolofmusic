@@ -8,29 +8,9 @@ excerpt: "Our  Fall Recital  is coming up soon, and we can’t wait to celebrate
 
 <p>Our <strong>Fall Recital</strong> is coming up soon, and we can’t wait to celebrate all the progress our students have made this semester!<br> If your child (or you!) would like to perform, just <strong>send us a message at info@wylieschoolofmusic.com</strong> to reserve your spot.</p>
 
-<img src="{{ site.baseurl }}/assets/images/Ian_Griffith_2.jpg"    alt="" elementtiming="system-image-block" data-sqsp-image-classic-block-image src="{{ site.baseurl }}/assets/images/Ian_Griffith_2.jpg" width="4500" height="3000" alt="" sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 100vw" onload="this.classList.add(&quot;loaded&quot;)" srcset="{{ site.baseurl }}/assets/images/Ian_Griffith_2.jpg?format=100w 100w, {{ site.baseurl }}/assets/images/Ian_Griffith_2.jpg?format=300w 300w, {{ site.baseurl }}/assets/images/Ian_Griffith_2.jpg?format=500w 500w, {{ site.baseurl }}/assets/images/Ian_Griffith_2.jpg?format=750w 750w, {{ site.baseurl }}/assets/images/Ian_Griffith_2.jpg?format=1000w 1000w, {{ site.baseurl }}/assets/images/Ian_Griffith_2.jpg?format=1500w 1500w, {{ site.baseurl }}/assets/images/Ian_Griffith_2.jpg?format=2500w 2500w" loading="lazy" decoding="async">
+<img src="{{ site.baseurl }}/assets/images/Ian_Griffith_2.jpg" alt="" srcset="{{ site.baseurl }}/assets/images/Ian_Griffith_2.jpg?format=100w 100w, {{ site.baseurl }}/assets/images/Ian_Griffith_2.jpg?format=300w 300w, {{ site.baseurl }}/assets/images/Ian_Griffith_2.jpg?format=500w 500w, {{ site.baseurl }}/assets/images/Ian_Griffith_2.jpg?format=750w 750w, {{ site.baseurl }}/assets/images/Ian_Griffith_2.jpg?format=1000w 1000w, {{ site.baseurl }}/assets/images/Ian_Griffith_2.jpg?format=1500w 1500w, {{ site.baseurl }}/assets/images/Ian_Griffith_2.jpg?format=2500w 2500w" width="4500" height="3000" loading="lazy" decoding="async">
 
-            </div>
-          </div>
-        
-          
-        
-
-        
-      
-        </figure>
-      
-
-    </div>
-  
-
-
-  
-
-
-</div></div><div data-website-component-><div><div>
-  
-  <div data-sqsp-text-block-content><h4>Why We Ask for an RSVP</h4>
+  <h4>Why We Ask for an RSVP</h4>
 
 <p>Every recital takes a bit of planning magic behind the scenes.<br> When families RSVP early, it helps us:</p>
 
@@ -50,29 +30,9 @@ excerpt: "Our  Fall Recital  is coming up soon, and we can’t wait to celebrate
 
 <p><strong>📍 Location:</strong> New Hope Church, Wylie<br> <strong>📅 Date:</strong> Sunday, November 16th<br> <strong>🕒 Time:</strong> Multiple sessions throughout the day (schedule coming soon)</p>
 
-<img src="{{ site.baseurl }}/assets/images/Guitar_Lessons_Wylie_Fall_2024-303.jpg"    alt="" elementtiming="system-image-block" data-sqsp-image-classic-block-image src="{{ site.baseurl }}/assets/images/Guitar_Lessons_Wylie_Fall_2024-303.jpg" width="4500" height="3000" alt="" sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 100vw" onload="this.classList.add(&quot;loaded&quot;)" srcset="{{ site.baseurl }}/assets/images/Guitar_Lessons_Wylie_Fall_2024-303.jpg?format=100w 100w, {{ site.baseurl }}/assets/images/Guitar_Lessons_Wylie_Fall_2024-303.jpg?format=300w 300w, {{ site.baseurl }}/assets/images/Guitar_Lessons_Wylie_Fall_2024-303.jpg?format=500w 500w, {{ site.baseurl }}/assets/images/Guitar_Lessons_Wylie_Fall_2024-303.jpg?format=750w 750w, {{ site.baseurl }}/assets/images/Guitar_Lessons_Wylie_Fall_2024-303.jpg?format=1000w 1000w, {{ site.baseurl }}/assets/images/Guitar_Lessons_Wylie_Fall_2024-303.jpg?format=1500w 1500w, {{ site.baseurl }}/assets/images/Guitar_Lessons_Wylie_Fall_2024-303.jpg?format=2500w 2500w" loading="lazy" decoding="async">
+<img src="{{ site.baseurl }}/assets/images/Guitar_Lessons_Wylie_Fall_2024-303.jpg" alt="" srcset="{{ site.baseurl }}/assets/images/Guitar_Lessons_Wylie_Fall_2024-303.jpg?format=100w 100w, {{ site.baseurl }}/assets/images/Guitar_Lessons_Wylie_Fall_2024-303.jpg?format=300w 300w, {{ site.baseurl }}/assets/images/Guitar_Lessons_Wylie_Fall_2024-303.jpg?format=500w 500w, {{ site.baseurl }}/assets/images/Guitar_Lessons_Wylie_Fall_2024-303.jpg?format=750w 750w, {{ site.baseurl }}/assets/images/Guitar_Lessons_Wylie_Fall_2024-303.jpg?format=1000w 1000w, {{ site.baseurl }}/assets/images/Guitar_Lessons_Wylie_Fall_2024-303.jpg?format=1500w 1500w, {{ site.baseurl }}/assets/images/Guitar_Lessons_Wylie_Fall_2024-303.jpg?format=2500w 2500w" width="4500" height="3000" loading="lazy" decoding="async">
 
-            </div>
-          </div>
-        
-          
-        
-
-        
-      
-        </figure>
-      
-
-    </div>
-  
-
-
-  
-
-
-</div></div><div data-website-component-><div><div>
-  
-  <div data-sqsp-text-block-content><p><strong>Tips for First-Time Performers:</strong></p>
+  <p><strong>Tips for First-Time Performers:</strong></p>
 
 <ul><li><p>Practice performing your song at home for family or friends.</p>
 

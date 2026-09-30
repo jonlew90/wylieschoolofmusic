@@ -20,18 +20,8 @@ excerpt: "Get ready, Wylie! One of our favorite community traditions is almost h
 
 <p>This is a <strong>free event</strong> for the community, hosted by the City of Wylie in partnership with the Downtown Merchants Association.</p>
 
-<img src="{{ site.baseurl }}/assets/images/48BFE40C-604A-4152-816D-04C2176913CB.jpeg"    alt="" elementtiming="system-image-block" data-sqsp-image-classic-block-image src="{{ site.baseurl }}/assets/images/48BFE40C-604A-4152-816D-04C2176913CB.jpeg" width="3866" height="2790" alt="" sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 100vw" onload="this.classList.add(&quot;loaded&quot;)" srcset="{{ site.baseurl }}/assets/images/48BFE40C-604A-4152-816D-04C2176913CB.jpeg?format=100w 100w, {{ site.baseurl }}/assets/images/48BFE40C-604A-4152-816D-04C2176913CB.jpeg?format=300w 300w, {{ site.baseurl }}/assets/images/48BFE40C-604A-4152-816D-04C2176913CB.jpeg?format=500w 500w, {{ site.baseurl }}/assets/images/48BFE40C-604A-4152-816D-04C2176913CB.jpeg?format=750w 750w, {{ site.baseurl }}/assets/images/48BFE40C-604A-4152-816D-04C2176913CB.jpeg?format=1000w 1000w, {{ site.baseurl }}/assets/images/48BFE40C-604A-4152-816D-04C2176913CB.jpeg?format=1500w 1500w, {{ site.baseurl }}/assets/images/48BFE40C-604A-4152-816D-04C2176913CB.jpeg?format=2500w 2500w" loading="lazy" decoding="async">
-
-            </div>
-          </div>
-        
-          
-        
-
-        
-          
-          <figcaption data-sqsp-image-classic-block-caption-container>
-            <div><p>A couple of our former students jamming out at Boo on Ballard!</p>
+<img src="{{ site.baseurl }}/assets/images/48BFE40C-604A-4152-816D-04C2176913CB.jpeg" alt="" srcset="{{ site.baseurl }}/assets/images/48BFE40C-604A-4152-816D-04C2176913CB.jpeg?format=100w 100w, {{ site.baseurl }}/assets/images/48BFE40C-604A-4152-816D-04C2176913CB.jpeg?format=300w 300w, {{ site.baseurl }}/assets/images/48BFE40C-604A-4152-816D-04C2176913CB.jpeg?format=500w 500w, {{ site.baseurl }}/assets/images/48BFE40C-604A-4152-816D-04C2176913CB.jpeg?format=750w 750w, {{ site.baseurl }}/assets/images/48BFE40C-604A-4152-816D-04C2176913CB.jpeg?format=1000w 1000w, {{ site.baseurl }}/assets/images/48BFE40C-604A-4152-816D-04C2176913CB.jpeg?format=1500w 1500w, {{ site.baseurl }}/assets/images/48BFE40C-604A-4152-816D-04C2176913CB.jpeg?format=2500w 2500w" width="3866" height="2790" loading="lazy" decoding="async">
+<p class="image-caption"><em>A couple of our former students jamming out at Boo on Ballard!</em></p>
 
 <h4>Wylie School of Music Will Be There!</h4>
 
@@ -39,18 +29,8 @@ excerpt: "Get ready, Wylie! One of our favorite community traditions is almost h
 
 <p>Stop by to say hello, grab some candy, and meet a few of our teachers and students. We love being part of this tradition and can’t wait to see all the creative costumes!</p>
 
-<img src="{{ site.baseurl }}/assets/images/DDFDE317-5259-41DB-A900-A1422C51D7A0.jpeg"    alt="" elementtiming="system-image-block" data-sqsp-image-classic-block-image src="{{ site.baseurl }}/assets/images/DDFDE317-5259-41DB-A900-A1422C51D7A0.jpeg" width="4032" height="3024" alt="" sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 100vw" onload="this.classList.add(&quot;loaded&quot;)" srcset="{{ site.baseurl }}/assets/images/DDFDE317-5259-41DB-A900-A1422C51D7A0.jpeg?format=100w 100w, {{ site.baseurl }}/assets/images/DDFDE317-5259-41DB-A900-A1422C51D7A0.jpeg?format=300w 300w, {{ site.baseurl }}/assets/images/DDFDE317-5259-41DB-A900-A1422C51D7A0.jpeg?format=500w 500w, {{ site.baseurl }}/assets/images/DDFDE317-5259-41DB-A900-A1422C51D7A0.jpeg?format=750w 750w, {{ site.baseurl }}/assets/images/DDFDE317-5259-41DB-A900-A1422C51D7A0.jpeg?format=1000w 1000w, {{ site.baseurl }}/assets/images/DDFDE317-5259-41DB-A900-A1422C51D7A0.jpeg?format=1500w 1500w, {{ site.baseurl }}/assets/images/DDFDE317-5259-41DB-A900-A1422C51D7A0.jpeg?format=2500w 2500w" loading="lazy" decoding="async">
-
-            </div>
-          </div>
-        
-          
-        
-
-        
-          
-          <figcaption data-sqsp-image-classic-block-caption-container>
-            <div><p>Passing out candy @ Boo on Ballard! </p>
+<img src="{{ site.baseurl }}/assets/images/DDFDE317-5259-41DB-A900-A1422C51D7A0.jpeg" alt="" srcset="{{ site.baseurl }}/assets/images/DDFDE317-5259-41DB-A900-A1422C51D7A0.jpeg?format=100w 100w, {{ site.baseurl }}/assets/images/DDFDE317-5259-41DB-A900-A1422C51D7A0.jpeg?format=300w 300w, {{ site.baseurl }}/assets/images/DDFDE317-5259-41DB-A900-A1422C51D7A0.jpeg?format=500w 500w, {{ site.baseurl }}/assets/images/DDFDE317-5259-41DB-A900-A1422C51D7A0.jpeg?format=750w 750w, {{ site.baseurl }}/assets/images/DDFDE317-5259-41DB-A900-A1422C51D7A0.jpeg?format=1000w 1000w, {{ site.baseurl }}/assets/images/DDFDE317-5259-41DB-A900-A1422C51D7A0.jpeg?format=1500w 1500w, {{ site.baseurl }}/assets/images/DDFDE317-5259-41DB-A900-A1422C51D7A0.jpeg?format=2500w 2500w" width="4032" height="3024" loading="lazy" decoding="async">
+<p class="image-caption"><em>Passing out candy @ Boo on Ballard!</em></p>
 
 <h4>Tips for Families</h4>
 

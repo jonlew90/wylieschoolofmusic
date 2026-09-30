@@ -18,4 +18,4 @@ excerpt: "We’re excited to invite you to our upcoming  Student Recital this Su
 
 <p>Each group will feature a mix of individual students and Rock Shop bands showing off what they’ve been working on. You’ll hear everything from first-time performances to full band jams—and it’s always a blast seeing how much everyone has grown. Come hang out and cheer them on!</p>
 
-<img src="{{ site.baseurl }}/assets/images/Untitled_3.PNG" alt="Student Recital This Sunday" loading="lazy">
+<img src="{{ site.baseurl }}/assets/images/Untitled_3.PNG" alt="Student Recital This Sunday" loading="lazy" decoding="async">

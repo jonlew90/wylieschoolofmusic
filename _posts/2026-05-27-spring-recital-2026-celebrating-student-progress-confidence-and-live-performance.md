@@ -10,18 +10,8 @@ excerpt: "Our Spring Recital 2026 was an incredible day filled with music, hard 
 
 <p>We’re proud of every student who performed and grateful to the families who support their musical journeys week after week.</p>
 
-<img src="{{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-21.jpg"    alt="" elementtiming="system-image-block" data-sqsp-image-classic-block-image src="{{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-21.jpg" width="4182" height="2788" alt="" sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 100vw" onload="this.classList.add(&quot;loaded&quot;)" srcset="{{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-21.jpg?format=100w 100w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-21.jpg?format=300w 300w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-21.jpg?format=500w 500w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-21.jpg?format=750w 750w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-21.jpg?format=1000w 1000w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-21.jpg?format=1500w 1500w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-21.jpg?format=2500w 2500w" loading="lazy" decoding="async">
-
-            </div>
-          </div>
-        
-          
-        
-
-        
-          
-          <figcaption data-sqsp-image-classic-block-caption-container>
-            <div><p>Drum performance at the Wylie School of Music Spring Recital</p>
+<img src="{{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-21.jpg" alt="" srcset="{{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-21.jpg?format=100w 100w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-21.jpg?format=300w 300w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-21.jpg?format=500w 500w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-21.jpg?format=750w 750w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-21.jpg?format=1000w 1000w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-21.jpg?format=1500w 1500w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-21.jpg?format=2500w 2500w" width="4182" height="2788" loading="lazy" decoding="async">
+<p class="image-caption"><em>Drum performance at the Wylie School of Music Spring Recital</em></p>
 
 <h4>Students of All Ages Took the Stage</h4>
 
@@ -31,18 +21,8 @@ excerpt: "Our Spring Recital 2026 was an incredible day filled with music, hard 
 
 <p>Learning an instrument takes consistency, patience, and courage—and stepping onto a stage is a huge accomplishment.</p>
 
-<img src="{{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-105.jpg"    alt="" elementtiming="system-image-block" data-sqsp-image-classic-block-image src="{{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-105.jpg" width="5472" height="3648" alt="" sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 100vw" onload="this.classList.add(&quot;loaded&quot;)" srcset="{{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-105.jpg?format=100w 100w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-105.jpg?format=300w 300w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-105.jpg?format=500w 500w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-105.jpg?format=750w 750w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-105.jpg?format=1000w 1000w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-105.jpg?format=1500w 1500w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-105.jpg?format=2500w 2500w" loading="lazy" decoding="async">
-
-            </div>
-          </div>
-        
-          
-        
-
-        
-          
-          <figcaption data-sqsp-image-classic-block-caption-container>
-            <div><p>Electric guitar performance at the Wylie School of Music Spring Recital 2026</p>
+<img src="{{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-105.jpg" alt="" srcset="{{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-105.jpg?format=100w 100w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-105.jpg?format=300w 300w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-105.jpg?format=500w 500w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-105.jpg?format=750w 750w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-105.jpg?format=1000w 1000w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-105.jpg?format=1500w 1500w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-105.jpg?format=2500w 2500w" width="5472" height="3648" loading="lazy" decoding="async">
+<p class="image-caption"><em>Electric guitar performance at the Wylie School of Music Spring Recital 2026</em></p>
 
 <h4>Guitar, Piano, Drum, and Bass Students Showed Incredible Progress</h4>
 
@@ -58,18 +38,8 @@ excerpt: "Our Spring Recital 2026 was an incredible day filled with music, hard 
 
 <p>Seeing students grow into confident musicians over time is one of the best parts of teaching.</p>
 
-<img src="{{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-133.jpg"    alt="" elementtiming="system-image-block" data-sqsp-image-classic-block-image src="{{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-133.jpg" width="5472" height="3648" alt="" sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 100vw" onload="this.classList.add(&quot;loaded&quot;)" srcset="{{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-133.jpg?format=100w 100w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-133.jpg?format=300w 300w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-133.jpg?format=500w 500w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-133.jpg?format=750w 750w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-133.jpg?format=1000w 1000w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-133.jpg?format=1500w 1500w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-133.jpg?format=2500w 2500w" loading="lazy" decoding="async">
-
-            </div>
-          </div>
-        
-          
-        
-
-        
-          
-          <figcaption data-sqsp-image-classic-block-caption-container>
-            <div><p>Rock Shop Band performing at the  Wylie School of Music Spring Recital 2026</p>
+<img src="{{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-133.jpg" alt="" srcset="{{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-133.jpg?format=100w 100w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-133.jpg?format=300w 300w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-133.jpg?format=500w 500w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-133.jpg?format=750w 750w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-133.jpg?format=1000w 1000w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-133.jpg?format=1500w 1500w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-133.jpg?format=2500w 2500w" width="5472" height="3648" loading="lazy" decoding="async">
+<p class="image-caption"><em>Rock Shop Band performing at the  Wylie School of Music Spring Recital 2026</em></p>
 
 <h4>Rock Shop Bands Brought Live Performance Experience to the Stage</h4>
 
@@ -81,18 +51,8 @@ excerpt: "Our Spring Recital 2026 was an incredible day filled with music, hard 
 
 <p>Band performance experience often becomes one of the most memorable parts of a student’s musical journey.</p>
 
-<img src="{{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-160.jpg"    alt="" elementtiming="system-image-block" data-sqsp-image-classic-block-image src="{{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-160.jpg" width="5472" height="3648" alt="" sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 100vw" onload="this.classList.add(&quot;loaded&quot;)" srcset="{{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-160.jpg?format=100w 100w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-160.jpg?format=300w 300w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-160.jpg?format=500w 500w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-160.jpg?format=750w 750w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-160.jpg?format=1000w 1000w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-160.jpg?format=1500w 1500w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-160.jpg?format=2500w 2500w" loading="lazy" decoding="async">
-
-            </div>
-          </div>
-        
-          
-        
-
-        
-          
-          <figcaption data-sqsp-image-classic-block-caption-container>
-            <div><p>Ukulele students performing on stage at Wylie School of Music</p>
+<img src="{{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-160.jpg" alt="" srcset="{{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-160.jpg?format=100w 100w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-160.jpg?format=300w 300w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-160.jpg?format=500w 500w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-160.jpg?format=750w 750w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-160.jpg?format=1000w 1000w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-160.jpg?format=1500w 1500w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-160.jpg?format=2500w 2500w" width="5472" height="3648" loading="lazy" decoding="async">
+<p class="image-caption"><em>Ukulele students performing on stage at Wylie School of Music</em></p>
 
 <h4>Why Recitals Matter</h4>
 
@@ -112,18 +72,8 @@ excerpt: "Our Spring Recital 2026 was an incredible day filled with music, hard 
 
 <p>These experiences often carry over into school, sports, public speaking, and everyday life.</p>
 
-<img src="{{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-149.jpg"    alt="" elementtiming="system-image-block" data-sqsp-image-classic-block-image src="{{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-149.jpg" width="5472" height="3648" alt="" sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 100vw" onload="this.classList.add(&quot;loaded&quot;)" srcset="{{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-149.jpg?format=100w 100w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-149.jpg?format=300w 300w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-149.jpg?format=500w 500w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-149.jpg?format=750w 750w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-149.jpg?format=1000w 1000w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-149.jpg?format=1500w 1500w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-149.jpg?format=2500w 2500w" loading="lazy" decoding="async">
-
-            </div>
-          </div>
-        
-          
-        
-
-        
-          
-          <figcaption data-sqsp-image-classic-block-caption-container>
-            <div><p>Live piano performance during our Spring Recital 2026</p>
+<img src="{{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-149.jpg" alt="" srcset="{{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-149.jpg?format=100w 100w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-149.jpg?format=300w 300w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-149.jpg?format=500w 500w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-149.jpg?format=750w 750w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-149.jpg?format=1000w 1000w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-149.jpg?format=1500w 1500w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-149.jpg?format=2500w 2500w" width="5472" height="3648" loading="lazy" decoding="async">
+<p class="image-caption"><em>Live piano performance during our Spring Recital 2026</em></p>
 
 <h4>Thank You to Our Families, Teachers, and Students</h4>
 
@@ -135,18 +85,8 @@ excerpt: "Our Spring Recital 2026 was an incredible day filled with music, hard 
 
 <p>We’re already looking forward to the next recital.</p>
 
-<img src="{{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-25.jpg"    alt="" elementtiming="system-image-block" data-sqsp-image-classic-block-image src="{{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-25.jpg" width="5472" height="3648" alt="" sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 100vw" onload="this.classList.add(&quot;loaded&quot;)" srcset="{{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-25.jpg?format=100w 100w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-25.jpg?format=300w 300w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-25.jpg?format=500w 500w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-25.jpg?format=750w 750w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-25.jpg?format=1000w 1000w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-25.jpg?format=1500w 1500w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-25.jpg?format=2500w 2500w" loading="lazy" decoding="async">
-
-            </div>
-          </div>
-        
-          
-        
-
-        
-          
-          <figcaption data-sqsp-image-classic-block-caption-container>
-            <div><p>Vocal Student performing at the  Wylie School of Music Spring Recital 2026</p>
+<img src="{{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-25.jpg" alt="" srcset="{{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-25.jpg?format=100w 100w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-25.jpg?format=300w 300w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-25.jpg?format=500w 500w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-25.jpg?format=750w 750w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-25.jpg?format=1000w 1000w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-25.jpg?format=1500w 1500w, {{ site.baseurl }}/assets/images/Wylie_School_of_Music_Spring_Recital-25.jpg?format=2500w 2500w" width="5472" height="3648" loading="lazy" decoding="async">
+<p class="image-caption"><em>Vocal Student performing at the  Wylie School of Music Spring Recital 2026</em></p>
 
 <h4>Interested in Music Lessons in Wylie?</h4>
 

@@ -6,18 +6,8 @@ featured_image: "/assets/images/A875FEEF-440E-4FBE-A3F1-6237BA9C0582_1_201_a.jpe
 excerpt: "Nathan H. smiling after his recital performance."
 ---
 
-<img src="{{ site.baseurl }}/assets/images/724773BB-1174-4976-BD45-10CBCF57451A_1_201_a.jpeg"    alt="" elementtiming="system-image-block" data-sqsp-image-classic-block-image src="{{ site.baseurl }}/assets/images/724773BB-1174-4976-BD45-10CBCF57451A_1_201_a.jpeg" width="5568" height="3712" alt="" sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 100vw" onload="this.classList.add(&quot;loaded&quot;)" srcset="{{ site.baseurl }}/assets/images/724773BB-1174-4976-BD45-10CBCF57451A_1_201_a.jpeg?format=100w 100w, {{ site.baseurl }}/assets/images/724773BB-1174-4976-BD45-10CBCF57451A_1_201_a.jpeg?format=300w 300w, {{ site.baseurl }}/assets/images/724773BB-1174-4976-BD45-10CBCF57451A_1_201_a.jpeg?format=500w 500w, {{ site.baseurl }}/assets/images/724773BB-1174-4976-BD45-10CBCF57451A_1_201_a.jpeg?format=750w 750w, {{ site.baseurl }}/assets/images/724773BB-1174-4976-BD45-10CBCF57451A_1_201_a.jpeg?format=1000w 1000w, {{ site.baseurl }}/assets/images/724773BB-1174-4976-BD45-10CBCF57451A_1_201_a.jpeg?format=1500w 1500w, {{ site.baseurl }}/assets/images/724773BB-1174-4976-BD45-10CBCF57451A_1_201_a.jpeg?format=2500w 2500w" loading="lazy" decoding="async">
-
-            </div>
-          </div>
-        
-          
-        
-
-        
-          
-          <figcaption data-sqsp-image-classic-block-caption-container>
-            <div><p>Nathan H. smiling after his recital performance. </p>
+<img src="{{ site.baseurl }}/assets/images/724773BB-1174-4976-BD45-10CBCF57451A_1_201_a.jpeg" alt="" srcset="{{ site.baseurl }}/assets/images/724773BB-1174-4976-BD45-10CBCF57451A_1_201_a.jpeg?format=100w 100w, {{ site.baseurl }}/assets/images/724773BB-1174-4976-BD45-10CBCF57451A_1_201_a.jpeg?format=300w 300w, {{ site.baseurl }}/assets/images/724773BB-1174-4976-BD45-10CBCF57451A_1_201_a.jpeg?format=500w 500w, {{ site.baseurl }}/assets/images/724773BB-1174-4976-BD45-10CBCF57451A_1_201_a.jpeg?format=750w 750w, {{ site.baseurl }}/assets/images/724773BB-1174-4976-BD45-10CBCF57451A_1_201_a.jpeg?format=1000w 1000w, {{ site.baseurl }}/assets/images/724773BB-1174-4976-BD45-10CBCF57451A_1_201_a.jpeg?format=1500w 1500w, {{ site.baseurl }}/assets/images/724773BB-1174-4976-BD45-10CBCF57451A_1_201_a.jpeg?format=2500w 2500w" width="5568" height="3712" loading="lazy" decoding="async">
+<p class="image-caption"><em>Nathan H. smiling after his recital performance.</em></p>
 
 <p>Music is more than just a source of entertainment—it's a powerful tool for personal growth. Learning to play an instrument offers a wide range of benefits that go far beyond simply making music. Whether you're strumming a guitar, playing the piano, or rocking out on the drums, the skills you develop can transform your life in surprising ways.</p>
 
@@ -35,4 +25,4 @@ excerpt: "Nathan H. smiling after his recital performance."
 
 <p>Whether you're looking to improve your mental well-being, develop new skills, or just have fun, learning to play an instrument is an investment in yourself. Ready to start your musical journey? Come visit us at Guitar Lessons Wylie Texas (soon to be Wylie School of Music!) and discover the joy of making music. 🎶</p>
 
-<img src="{{ site.baseurl }}/assets/images/A875FEEF-440E-4FBE-A3F1-6237BA9C0582_1_201_a.jpeg" alt="The Benefits of Learning to Play an Instrument" loading="lazy">
+<img src="{{ site.baseurl }}/assets/images/A875FEEF-440E-4FBE-A3F1-6237BA9C0582_1_201_a.jpeg" alt="The Benefits of Learning to Play an Instrument" loading="lazy" decoding="async">
