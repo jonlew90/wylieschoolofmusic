@@ -1117,7 +1117,7 @@ main#page.blog-page-container,
   padding: 2.25rem 0 1.5rem;
   margin-top: 2.5rem;
   border-top: 1px solid #e5e7eb;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 .item-pagination-link {
@@ -1127,7 +1127,7 @@ main#page.blog-page-container,
   color: #111827;
   flex: 1 1 0;
   min-width: 0;
-  max-width: 45%;
+  max-width: 48%;
   transition: opacity 0.2s ease;
 }
 
@@ -1177,22 +1177,25 @@ main#page.blog-page-container,
 }
 
 .item-pagination-prev-next {
-  font-size: 0.7rem;
+  font-size: 0.68rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: #6b7280;
   font-weight: 600;
-  margin-bottom: 0.15rem;
+  margin-bottom: 0.2rem;
 }
 
 .item-pagination-title {
   font-family: var(--font-heading, "Space Grotesk", sans-serif);
-  font-size: 0.95rem;
-  font-weight: 600;
+  font-size: 0.85rem;
+  font-weight: 500;
   line-height: 1.35;
+  letter-spacing: normal;
   margin: 0;
   color: #111827;
+  word-break: normal;
   overflow-wrap: break-word;
+  hyphens: manual;
 }
 
 @media (max-width: 640px) {
