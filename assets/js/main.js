@@ -91,4 +91,35 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   });
+
+  // 4. Scroll-Driven Fade-In Animations (Squarespace Parity)
+  if ('IntersectionObserver' in window) {
+    const animatableElements = document.querySelectorAll(
+      '.sqs-block, .gallery-grid-item, .blog-card, .list-item'
+    );
+    const vh = window.innerHeight || document.documentElement.clientHeight;
+
+    const scrollObserver = new IntersectionObserver((entries, obs) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          obs.unobserve(entry.target);
+        }
+      });
+    }, {
+      rootMargin: '0px 0px -40px 0px',
+      threshold: 0.05
+    });
+
+    animatableElements.forEach(el => {
+      const rect = el.getBoundingClientRect();
+      // Elements already above or within the initial viewport display immediately without delay
+      if (rect.top < vh - 20) {
+        el.classList.add('is-visible');
+      } else {
+        el.classList.add('scroll-fade');
+        scrollObserver.observe(el);
+      }
+    });
+  }
 });

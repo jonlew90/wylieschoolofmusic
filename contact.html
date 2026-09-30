@@ -1299,44 +1299,49 @@ header_theme: ""
       <input type="hidden" name="_template" value="table">
 
       <div class="field-list">
-        
-            <div class="form-item field text">
-              <label class="title" for="field-name">Name <span class="required" style="color: var(--primary);">*</span></label>
-              <input class="field-element text" id="field-name" name="field-name" type="text" required placeholder="Name">
+        <fieldset class="form-item fields name" style="border: 0; padding: 0; margin: 0;">
+          <legend class="title">Name</legend>
+          <div class="name-fields-row">
+            <div class="field first-name">
+              <label class="caption" for="field-fname">First Name <span class="description required">(required)</span></label>
+              <input class="field-element text" id="field-fname" name="fname" type="text" required autocomplete="given-name">
             </div>
-            <div class="form-item field email">
-              <label class="title" for="field-email">Email <span class="required" style="color: var(--primary);">*</span></label>
-              <input class="field-element" id="field-email" name="email" type="email" autocomplete="email" required placeholder="you@example.com">
+            <div class="field last-name">
+              <label class="caption" for="field-lname">Last Name <span class="description required">(required)</span></label>
+              <input class="field-element text" id="field-lname" name="lname" type="text" required autocomplete="family-name">
             </div>
-            <div class="form-item field phone">
-              <label class="title" for="field-phone-optional">Phone (optional) </label>
-              <input class="field-element" id="field-phone-optional" name="phone" type="tel"  placeholder="(972) 000-0000">
-            </div>
-            <div class="form-item field text">
-              <label class="title" for="field-what-instrument-s-are-you-interested-in">What instrument(s) are you interested in? </label>
-              
-              <input class="field-element text" id="field-what-instrument-s-are-you-interested-in" name="field-what-instrument-s-are-you-interested-in" type="text" >
-            </div>
-            <div class="form-item field text">
-              <label class="title" for="field-age-of-student">Age of Student </label>
-              
-              <input class="field-element text" id="field-age-of-student" name="field-age-of-student" type="text" >
-            </div>
-            <div class="form-item field checkbox">
-              <label class="title" style="font-weight: 600; margin-bottom: 0.5rem; display: block;">Are you interested in Rock Shop? </label>
-              
-                <label class="option" style="display: flex; gap: 0.5rem; align-items: flex-start; margin-bottom: 0.5rem; cursor: pointer;">
-                  <input type="checkbox" name="field-are-you-interested-in-rock-shop" value="Yes"  style="margin-top: 4px;">
-                  <span>Yes</span>
-                </label>
-            </div>
-            <div class="form-item field textarea">
-              <label class="title" for="field-message">Message <span class="required" style="color: var(--primary);">*</span></label>
-              <textarea class="field-element" id="field-message" name="field-message" rows="4" required placeholder="Your message here..."></textarea>
-            </div>
+          </div>
+        </fieldset>
+        <div class="form-item field email">
+          <label class="title" for="field-email">Email <span class="description required">(required)</span></label>
+          <input class="field-element" id="field-email" name="email" type="email" autocomplete="email" required>
+        </div>
+        <div class="form-item field phone">
+          <label class="title" for="field-phone">Phone <span class="optional">(optional)</span></label>
+          <input class="field-element" id="field-phone" name="phone" type="tel" autocomplete="tel">
+        </div>
+        <div class="form-item field text">
+          <label class="title" for="field-what-instrument-s-are-you-interested-in">What instrument(s) are you interested in?</label>
+          <input class="field-element text" id="field-what-instrument-s-are-you-interested-in" name="field-what-instrument-s-are-you-interested-in" type="text">
+        </div>
+        <div class="form-item field text">
+          <label class="title" for="field-age-of-student">Age of Student</label>
+          <input class="field-element text" id="field-age-of-student" name="field-age-of-student" type="text">
+        </div>
+        <div class="form-item field checkbox">
+          <label class="title">Are you interested in Rock Shop?</label>
+          <label class="option">
+            <input type="checkbox" name="field-are-you-interested-in-rock-shop" value="Yes">
+            <span>Yes</span>
+          </label>
+        </div>
+        <div class="form-item field textarea">
+          <label class="title" for="field-message">Message <span class="description required">(required)</span></label>
+          <textarea class="field-element" id="field-message" name="field-message" rows="5" required></textarea>
+        </div>
       </div>
 
-      <div class="form-button-wrapper form-button-wrapper--align-left" style="margin-top: 1.5rem;">
+      <div class="form-button-wrapper form-button-wrapper--align-left">
         <input class="button sqs-system-button sqs-editable-button sqs-button-element--primary" type="submit" value="Send">
       </div>
     </form>

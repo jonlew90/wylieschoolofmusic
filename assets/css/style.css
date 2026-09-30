@@ -331,7 +331,7 @@ header:not([data-section-theme="black"]):not(.black) .header-nav-folder-title {
 }
 
 /* ==========================================================================
-   FormSubmit Security Controls
+   FormSubmit Security Controls & Sitewide Form Styling (Squarespace Parity)
    ========================================================================== */
 input[name="_honey"] {
   display: none !important;
@@ -340,6 +340,396 @@ input[name="_honey"] {
   width: 0 !important;
   opacity: 0 !important;
   pointer-events: none !important;
+}
+
+.sqs-form,
+.site-form-converted,
+.site-form,
+.form-block form {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.sqs-form .field-list,
+.site-form-converted .field-list,
+.form-block .field-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.sqs-form .form-item,
+.site-form-converted .form-item,
+.form-block .form-item {
+  margin-bottom: 0;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.sqs-form .title,
+.sqs-form legend.title,
+.sqs-form label.title,
+.site-form-converted .title,
+.site-form-converted legend.title,
+.site-form-converted label.title,
+.form-block .title,
+.form-block legend.title,
+.form-block label.title {
+  display: block;
+  font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  line-height: 1.3;
+  margin-bottom: 8px;
+  color: #121212;
+}
+
+.sqs-form .caption,
+.site-form-converted .caption,
+.form-block .caption {
+  display: block;
+  font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #333333;
+  margin-bottom: 6px;
+}
+
+.sqs-form .description,
+.site-form-converted .description,
+.form-block .description {
+  display: block;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 12px;
+  color: #666666;
+  margin-top: 4px;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.sqs-form .required,
+.sqs-form .description.required,
+.site-form-converted .required,
+.site-form-converted .description.required,
+.form-block .required,
+.form-block .description.required {
+  display: inline !important;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #666666 !important;
+  margin-left: 6px;
+  font-style: normal;
+}
+
+.sqs-form .optional,
+.site-form-converted .optional,
+.form-block .optional {
+  display: inline !important;
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #777777;
+  margin-left: 6px;
+  font-style: normal;
+}
+
+/* Two-column name / field layout */
+.sqs-form .name-fields-row,
+.site-form-converted .name-fields-row,
+.form-block .name-fields-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .sqs-form .name-fields-row,
+  .site-form-converted .name-fields-row,
+  .form-block .name-fields-row {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}
+
+/* Inputs, Textareas, and Selects */
+.sqs-form input.field-element,
+.sqs-form input[type="text"],
+.sqs-form input[type="email"],
+.sqs-form input[type="tel"],
+.sqs-form select.field-element,
+.sqs-form select,
+.sqs-form textarea.field-element,
+.sqs-form textarea,
+.site-form-converted input.field-element,
+.site-form-converted input[type="text"],
+.site-form-converted input[type="email"],
+.site-form-converted input[type="tel"],
+.site-form-converted select.field-element,
+.site-form-converted select,
+.site-form-converted textarea.field-element,
+.site-form-converted textarea,
+.form-block input.field-element,
+.form-block textarea.field-element,
+.form-block select.field-element {
+  width: 100% !important;
+  box-sizing: border-box !important;
+  background-color: #ffffff !important;
+  border: 1px solid #121212 !important;
+  border-radius: 0px !important;
+  padding: 13px 14px !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  font-size: 14px !important;
+  color: #121212 !important;
+  outline: none !important;
+  margin: 0 !important;
+  line-height: 1.4 !important;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.sqs-form input.field-element:focus,
+.sqs-form input[type="text"]:focus,
+.sqs-form input[type="email"]:focus,
+.sqs-form input[type="tel"]:focus,
+.sqs-form textarea.field-element:focus,
+.sqs-form textarea:focus,
+.sqs-form select.field-element:focus,
+.sqs-form select:focus,
+.site-form-converted input:focus,
+.site-form-converted textarea:focus,
+.site-form-converted select:focus,
+.form-block input:focus,
+.form-block textarea:focus,
+.form-block select:focus {
+  border-color: #000000 !important;
+  box-shadow: 0 0 0 1px #000000 !important;
+}
+
+.sqs-form textarea.field-element,
+.sqs-form textarea,
+.site-form-converted textarea,
+.form-block textarea {
+  min-height: 130px !important;
+  resize: vertical !important;
+  line-height: 1.5 !important;
+}
+
+/* Checkbox styling */
+.sqs-form .form-item.checkbox,
+.site-form-converted .form-item.checkbox,
+.form-block .form-item.checkbox {
+  margin-top: 4px;
+}
+
+.sqs-form .form-item.checkbox label.option,
+.site-form-converted .form-item.checkbox label.option,
+.form-block .form-item.checkbox label.option,
+.sqs-form .form-item.checkbox label,
+.site-form-converted .form-item.checkbox label,
+.form-block .form-item.checkbox label {
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 10px !important;
+  cursor: pointer !important;
+  font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  line-height: 1.4 !important;
+  color: inherit !important;
+}
+
+.sqs-form .form-item.checkbox input[type="checkbox"],
+.site-form-converted .form-item.checkbox input[type="checkbox"],
+.form-block .form-item.checkbox input[type="checkbox"] {
+  appearance: auto !important;
+  -webkit-appearance: auto !important;
+  width: 17px !important;
+  height: 17px !important;
+  min-width: 17px !important;
+  margin: 1px 0 0 0 !important;
+  accent-color: #121212 !important;
+  border: 1px solid #121212 !important;
+  border-radius: 0px !important;
+  cursor: pointer !important;
+}
+
+/* Submit Button */
+.sqs-form .form-button-wrapper,
+.site-form-converted .form-button-wrapper,
+.form-block .form-button-wrapper {
+  margin-top: 28px !important;
+  text-align: left;
+}
+
+.sqs-form .form-button-wrapper input[type="submit"],
+.sqs-form .form-button-wrapper button[type="submit"],
+.site-form-converted .form-button-wrapper input[type="submit"],
+.site-form-converted .form-button-wrapper button[type="submit"],
+.form-block .form-button-wrapper input[type="submit"],
+.form-block .form-button-wrapper button[type="submit"],
+.sqs-button-element--primary.sqs-system-button {
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  background-color: #121212 !important;
+  color: #ffffff !important;
+  border: 1px solid #121212 !important;
+  border-radius: 0px !important;
+  font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.15em !important;
+  padding: 16px 42px !important;
+  cursor: pointer !important;
+  display: inline-block !important;
+  width: auto !important;
+  height: auto !important;
+  line-height: 1 !important;
+  transition: background-color 0.2s ease, border-color 0.2s ease, opacity 0.2s ease !important;
+}
+
+.sqs-form .form-button-wrapper input[type="submit"]:hover,
+.sqs-form .form-button-wrapper button[type="submit"]:hover,
+.site-form-converted .form-button-wrapper input[type="submit"]:hover,
+.site-form-converted .form-button-wrapper button[type="submit"]:hover,
+.form-block .form-button-wrapper input[type="submit"]:hover,
+.form-block .form-button-wrapper button[type="submit"]:hover {
+  background-color: #333333 !important;
+  border-color: #333333 !important;
+}
+
+/* Dark Theme Section Overrides (Uncarded forms on black/dark sections) */
+[data-section-theme="black"] .sqs-form:not(.in-card),
+[data-section-theme="dark"] .sqs-form:not(.in-card),
+.black .sqs-form:not(.in-card),
+.dark .sqs-form:not(.in-card),
+[data-section-theme="black"] .site-form-converted:not(.in-card),
+[data-section-theme="dark"] .site-form-converted:not(.in-card),
+.black .site-form-converted:not(.in-card),
+.dark .site-form-converted:not(.in-card) {
+  color: #ffffff;
+}
+
+[data-section-theme="black"] .sqs-form:not(.in-card) .title,
+[data-section-theme="dark"] .sqs-form:not(.in-card) .title,
+.black .sqs-form:not(.in-card) .title,
+.dark .sqs-form:not(.in-card) .title,
+[data-section-theme="black"] .site-form-converted:not(.in-card) .title,
+[data-section-theme="dark"] .site-form-converted:not(.in-card) .title,
+.black .site-form-converted:not(.in-card) .title,
+.dark .site-form-converted:not(.in-card) .title {
+  color: #ffffff !important;
+}
+
+[data-section-theme="black"] .sqs-form:not(.in-card) .required,
+[data-section-theme="dark"] .sqs-form:not(.in-card) .required,
+.black .sqs-form:not(.in-card) .required,
+.dark .sqs-form:not(.in-card) .required,
+[data-section-theme="black"] .site-form-converted:not(.in-card) .required,
+[data-section-theme="dark"] .site-form-converted:not(.in-card) .required,
+.black .site-form-converted:not(.in-card) .required,
+.dark .site-form-converted:not(.in-card) .required {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+[data-section-theme="black"] .sqs-form:not(.in-card) input.field-element,
+[data-section-theme="black"] .sqs-form:not(.in-card) textarea.field-element,
+[data-section-theme="dark"] .sqs-form:not(.in-card) input.field-element,
+[data-section-theme="dark"] .sqs-form:not(.in-card) textarea.field-element,
+.black .sqs-form:not(.in-card) input.field-element,
+.black .sqs-form:not(.in-card) textarea.field-element,
+.dark .sqs-form:not(.in-card) input.field-element,
+.dark .sqs-form:not(.in-card) textarea.field-element {
+  background-color: transparent !important;
+  color: #ffffff !important;
+  border-color: rgba(255, 255, 255, 0.75) !important;
+}
+
+[data-section-theme="black"] .sqs-form:not(.in-card) input.field-element:focus,
+[data-section-theme="black"] .sqs-form:not(.in-card) textarea.field-element:focus,
+[data-section-theme="dark"] .sqs-form:not(.in-card) input.field-element:focus,
+[data-section-theme="dark"] .sqs-form:not(.in-card) textarea.field-element:focus,
+.black .sqs-form:not(.in-card) input.field-element:focus,
+.black .sqs-form:not(.in-card) textarea.field-element:focus,
+.dark .sqs-form:not(.in-card) input.field-element:focus,
+.dark .sqs-form:not(.in-card) textarea.field-element:focus {
+  border-color: #ffffff !important;
+  box-shadow: 0 0 0 1px #ffffff !important;
+}
+
+[data-section-theme="black"] .sqs-form:not(.in-card) .form-button-wrapper input[type="submit"],
+[data-section-theme="dark"] .sqs-form:not(.in-card) .form-button-wrapper input[type="submit"],
+.black .sqs-form:not(.in-card) .form-button-wrapper input[type="submit"],
+.dark .sqs-form:not(.in-card) .form-button-wrapper input[type="submit"] {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border-color: #ffffff !important;
+}
+
+[data-section-theme="black"] .sqs-form:not(.in-card) .form-button-wrapper input[type="submit"]:hover,
+[data-section-theme="dark"] .sqs-form:not(.in-card) .form-button-wrapper input[type="submit"]:hover,
+.black .sqs-form:not(.in-card) .form-button-wrapper input[type="submit"]:hover,
+.dark .sqs-form:not(.in-card) .form-button-wrapper input[type="submit"]:hover {
+  background-color: #e5e5e5 !important;
+  border-color: #e5e5e5 !important;
+}
+
+/* Registration Form Card Background (#block-792f91abd85d5b46cb25) */
+#block-792f91abd85d5b46cb25 {
+  background-color: #d9d9d9 !important;
+  padding: 36px 32px !important;
+  box-sizing: border-box !important;
+}
+
+#block-792f91abd85d5b46cb25 .sqs-form .title,
+#block-792f91abd85d5b46cb25 .sqs-form label,
+#block-792f91abd85d5b46cb25 .sqs-form .caption {
+  color: #121212 !important;
+}
+
+#block-792f91abd85d5b46cb25 .sqs-form input.field-element,
+#block-792f91abd85d5b46cb25 .sqs-form textarea.field-element {
+  background-color: #cccccc !important;
+  border-color: #888888 !important;
+  color: #121212 !important;
+}
+
+#block-792f91abd85d5b46cb25 .sqs-form input.field-element:focus,
+#block-792f91abd85d5b46cb25 .sqs-form textarea.field-element:focus {
+  border-color: #000000 !important;
+  box-shadow: 0 0 0 1px #000000 !important;
+}
+
+#block-792f91abd85d5b46cb25 .sqs-form .form-button-wrapper input[type="submit"] {
+  background-color: #121212 !important;
+  color: #ffffff !important;
+  border-color: #121212 !important;
+}
+
+/* ==========================================================================
+   Scroll-Driven Fade-In Animations (Squarespace Parity)
+   ========================================================================== */
+.scroll-fade:not(.is-visible) {
+  opacity: 0 !important;
+  transform: translateY(14px);
+  transition: opacity 0.85s cubic-bezier(0.16, 1, 0.3, 1), transform 0.85s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.scroll-fade.is-visible {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+  transition: opacity 0.85s cubic-bezier(0.16, 1, 0.3, 1), transform 0.85s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 /* ==========================================================================

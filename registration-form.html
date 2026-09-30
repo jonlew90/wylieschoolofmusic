@@ -2185,32 +2185,49 @@ header_theme: "black"
       <input type="hidden" name="_template" value="table">
 
       <div class="field-list">
-        
-            <div class="form-item field text">
-              <label class="title" for="field-student-name">Student Name <span class="required" style="color: var(--primary);">*</span></label>
-              <input class="field-element text" id="field-student-name" name="field-student-name" type="text" required placeholder="Student Name">
+        <fieldset class="form-item fields name" style="border: 0; padding: 0; margin: 0;">
+          <legend class="title">Student Name</legend>
+          <div class="name-fields-row">
+            <div class="field first-name">
+              <label class="caption" for="field-student-fname">First Name <span class="description required">(required)</span></label>
+              <input class="field-element text" id="field-student-fname" name="student-fname" type="text" required autocomplete="given-name">
             </div>
-            <div class="form-item field text">
-              <label class="title" for="field-parent-or-guardian-name">Parent or Guardian Name <span class="required" style="color: var(--primary);">*</span></label>
-              <input class="field-element text" id="field-parent-or-guardian-name" name="field-parent-or-guardian-name" type="text" required placeholder="Parent or Guardian Name">
+            <div class="field last-name">
+              <label class="caption" for="field-student-lname">Last Name <span class="description required">(required)</span></label>
+              <input class="field-element text" id="field-student-lname" name="student-lname" type="text" required autocomplete="family-name">
             </div>
-            <div class="form-item field email">
-              <label class="title" for="field-email">Email <span class="required" style="color: var(--primary);">*</span></label>
-              <input class="field-element" id="field-email" name="email" type="email" autocomplete="email" required placeholder="you@example.com">
+          </div>
+        </fieldset>
+        <fieldset class="form-item fields name" style="border: 0; padding: 0; margin: 0;">
+          <legend class="title">Parent or Guardian Name</legend>
+          <div class="name-fields-row">
+            <div class="field first-name">
+              <label class="caption" for="field-parent-fname">First Name <span class="description required">(required)</span></label>
+              <input class="field-element text" id="field-parent-fname" name="parent-fname" type="text" required autocomplete="given-name">
             </div>
-            <div class="form-item field phone">
-              <label class="title" for="field-phone">Phone <span class="required" style="color: var(--primary);">*</span></label>
-              <input class="field-element" id="field-phone" name="phone" type="tel" required placeholder="(972) 000-0000">
+            <div class="field last-name">
+              <label class="caption" for="field-parent-lname">Last Name <span class="description required">(required)</span></label>
+              <input class="field-element text" id="field-parent-lname" name="parent-lname" type="text" required autocomplete="family-name">
             </div>
-            <div class="form-item field text">
-              <label class="title" for="field-age-of-student">Age of Student </label>
-              
-              <input class="field-element text" id="field-age-of-student" name="field-age-of-student" type="text" >
-            </div>
-            <div class="form-item field textarea">
-              <label class="title" for="field-any-previous-musical-experience">Any Previous Musical Experience? </label>
-              <textarea class="field-element" id="field-any-previous-musical-experience" name="field-any-previous-musical-experience" rows="4"  placeholder="Your message here..."></textarea>
-            </div>
+          </div>
+        </fieldset>
+        <div class="form-item field email">
+          <label class="title" for="field-email">Email <span class="description required">(required)</span></label>
+          <input class="field-element" id="field-email" name="email" type="email" autocomplete="email" required>
+        </div>
+        <div class="form-item field phone">
+          <label class="title" for="field-phone">Phone <span class="description required">(required)</span></label>
+          <input class="field-element" id="field-phone" name="phone" type="tel" required autocomplete="tel">
+        </div>
+        <div class="form-item field text">
+          <label class="title" for="field-age-of-student">Age of Student</label>
+          <input class="field-element text" id="field-age-of-student" name="field-age-of-student" type="text">
+        </div>
+        <div class="form-item field textarea">
+          <label class="title" for="field-any-previous-musical-experience">Any Previous Musical Experience?</label>
+          <span class="description">Ex. Choir, marching band, piano, etc.</span>
+          <textarea class="field-element" id="field-any-previous-musical-experience" name="field-any-previous-musical-experience" rows="4"></textarea>
+        </div>
             <div class="form-item field text">
               <label class="title" for="field-favorite-musical-genres-bands-or-artists">Favorite Musical Genres, Bands or Artists </label>
               
