@@ -27,3 +27,5 @@ excerpt: "When it comes to mastering your instrument, one of the most essential 
 <p>Experiment with different time signatures and subdivisions to challenge yourself.</p>
 
 <p>Incorporating a metronome into your daily practice might feel tedious at first, but the long-term benefits are undeniable. It sharpens your timing, refines your technique, and builds the discipline you need to grow as a musician. So, dust off that metronome—or download an app—and take your practice to the next level!</p>
+
+<img src="{{ site.baseurl }}/assets/images/metronome_HJjY1e8.jpg" alt="The Importance of Using a Metronome for Practice" loading="lazy">

@@ -28,6 +28,38 @@ layout: default
       {{ content }}
     </div>
 
+    <section id="itemPagination" class="item-pagination item-pagination--prev-next" data-collection-type="blog-masonry">
+      {% if page.previous %}
+      <a href="{{ site.baseurl }}{{ page.previous.url }}" class="item-pagination-link item-pagination-link--prev">
+        <div class="item-pagination-icon icon icon--stroke">
+          <svg class="caret-left-icon--small" viewBox="0 0 9 16">
+            <polyline fill="none" stroke-miterlimit="10" stroke="currentColor" stroke-width="1.5" points="7.3,14.7 2.5,8 7.3,1.2"/>
+          </svg>
+        </div>
+        <span class="pagination-title-wrapper">
+          <div class="visually-hidden">Previous</div>
+          <div class="item-pagination-prev-next">Previous</div>
+          <h2 class="item-pagination-title">{{ page.previous.title }}</h2>
+        </span>
+      </a>
+      {% endif %}
+
+      {% if page.next %}
+      <a href="{{ site.baseurl }}{{ page.next.url }}" class="item-pagination-link item-pagination-link--next">
+        <span class="pagination-title-wrapper">
+          <div class="visually-hidden">Next</div>
+          <div class="item-pagination-prev-next">Next</div>
+          <h2 class="item-pagination-title">{{ page.next.title }}</h2>
+        </span>
+        <div class="item-pagination-icon icon icon--stroke">
+          <svg class="caret-right-icon--small" viewBox="0 0 9 16">
+            <polyline fill="none" stroke-miterlimit="10" stroke="currentColor" stroke-width="1.5" points="1.6,1.2 6.5,7.9 1.6,14.7"/>
+          </svg>
+        </div>
+      </a>
+      {% endif %}
+    </section>
+
     <div class="post-footer">
       <div class="post-cta-card">
         <h3>Ready to Make Music?</h3>

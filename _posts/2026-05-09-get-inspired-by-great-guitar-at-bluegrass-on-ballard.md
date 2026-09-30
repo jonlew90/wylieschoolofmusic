@@ -13,3 +13,5 @@ excerpt: "If you love great guitar playing,  Bluegrass on Ballard  is an event y
 <p>For students taking <strong>music lessons in Wylie</strong>, events like this can be incredibly inspiring. Watching skilled musicians perform live often motivates young players to practice more and keep improving their own skills.</p>
 
 <p>At <strong>Wylie School of Music</strong>, we always encourage students to listen to live music whenever they can. If you’re looking for a fun family event in <strong>Wylie, Texas</strong>, Bluegrass on Ballard is the perfect place to enjoy great music and maybe even feel inspired to start learning guitar. </p>
+
+<img src="{{ site.baseurl }}/assets/images/BluegrassonBallard.jpg" alt="Bluegrass on Ballard" loading="lazy">
