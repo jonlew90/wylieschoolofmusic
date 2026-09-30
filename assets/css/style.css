@@ -227,18 +227,15 @@ body.header--menu-open .burger-inner .patty {
 /* Header theme adjustments */
 header:not([data-section-theme="black"]):not(.black) .header-title-text a,
 header:not([data-section-theme="black"]):not(.black) .header-nav-list a,
-header:not([data-section-theme="black"]):not(.black) .header-nav-folder-title,
+header:not([data-section-theme="black"]):not(.black) .header-nav-folder-title {
+  color: #000000 !important;
+  background-color: transparent !important;
+}
+
 header:not([data-section-theme="black"]):not(.black) .burger-inner .top-bun,
 header:not([data-section-theme="black"]):not(.black) .burger-inner .patty,
 header:not([data-section-theme="black"]):not(.black) .burger-inner .bottom-bun {
-  color: #000000 !important;
-  background-color: #000000;
-}
-
-header:not([data-section-theme="black"]):not(.black) .header-title-text a,
-header:not([data-section-theme="black"]):not(.black) .header-nav-list a:not(.header-nav-item--active a),
-header:not([data-section-theme="black"]):not(.black) .header-nav-folder-title {
-  background-color: transparent !important;
+  background-color: #000000 !important;
 }
 
 /* Active navigation item underline styling */
@@ -246,6 +243,7 @@ header:not([data-section-theme="black"]):not(.black) .header-nav-folder-title {
 .header-nav-item--active .header-nav-folder-title-text,
 .header-nav-folder-item--active .header-nav-folder-item-content,
 .header-nav-folder-item.is-active .header-nav-folder-item-content {
+  background-image: none !important;
   text-decoration: underline !important;
   text-underline-offset: 6px !important;
   text-decoration-thickness: 1.5px !important;
