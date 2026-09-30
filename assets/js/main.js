@@ -220,4 +220,71 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   }
+
+  // 7. Active Navigation Link Highlighting
+  const normalizePath = (path) => {
+    let p = path.replace(/index\.html$/, '').replace(/\/+$/, '');
+    // Strip site baseurl prefix if present (e.g. /wylieschoolofmusic)
+    p = p.replace(/^\/[^/]+(?=\/|$)/, (match) => {
+      return match === '/wylieschoolofmusic' ? '' : match;
+    });
+    return p === '' ? '/' : p;
+  };
+
+  const currentPath = normalizePath(window.location.pathname);
+
+  // Desktop Nav Items
+  document.querySelectorAll('.header-nav-item').forEach(item => {
+    let isActive = false;
+    const directLink = item.querySelector(':scope > a');
+    if (directLink) {
+      const linkPath = normalizePath(directLink.getAttribute('href') || '');
+      if (linkPath === currentPath || (linkPath !== '/' && currentPath.startsWith(linkPath))) {
+        isActive = true;
+        directLink.setAttribute('aria-current', 'page');
+      }
+    }
+
+    // Check folder items (e.g., Music Lessons folder)
+    const folderButton = item.querySelector('.header-nav-folder-title');
+    const folderItems = item.querySelectorAll('.header-nav-folder-item');
+    folderItems.forEach(folderItem => {
+      const a = folderItem.querySelector('a');
+      if (a) {
+        const linkPath = normalizePath(a.getAttribute('href') || '');
+        if (linkPath === currentPath) {
+          isActive = true;
+          folderItem.classList.add('header-nav-folder-item--active', 'is-active');
+          a.setAttribute('aria-current', 'page');
+        }
+      }
+    });
+
+    if (folderButton) {
+      const folderPath = normalizePath(folderButton.getAttribute('data-href') || '');
+      if (folderPath === currentPath) {
+        isActive = true;
+      }
+    }
+
+    if (isActive) {
+      item.classList.add('header-nav-item--active');
+    } else {
+      item.classList.remove('header-nav-item--active');
+    }
+  });
+
+  // Mobile Menu Items
+  document.querySelectorAll('.header-menu-nav-item').forEach(item => {
+    const a = item.querySelector('a');
+    if (a) {
+      const linkPath = normalizePath(a.getAttribute('href') || a.getAttribute('data-folder-id') || '');
+      if (linkPath === currentPath || (linkPath !== '/' && currentPath.startsWith(linkPath) && !linkPath.includes('musiclessons'))) {
+        item.classList.add('header-menu-nav-item--active');
+        a.setAttribute('aria-current', 'page');
+      } else {
+        item.classList.remove('header-menu-nav-item--active');
+      }
+    }
+  });
 });
