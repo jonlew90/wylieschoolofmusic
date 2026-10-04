@@ -17,8 +17,8 @@ excerpt: "We’re kicking off another season of Rock Shop, and we couldn’t be 
 <p>We can’t wait to see our students take the stage again, and we’re looking forward to an amazing season of music, growth, and fun. Stay tuned for updates on upcoming performances and behind-the-scenes moments as our Rock Shop bands get ready to rock!</p>
 
 <div class="blog-video-container">
-<video controls playsinline poster="{{ site.baseurl }}/assets/images/097159FB-A6A4-4E1E-ABA2-76BC1847ACB7_1_201_a.jpeg" src="https://video.squarespace-cdn.com/content/v1/679012571a9b3d79fdb90a0a/919248fd-fdbb-4767-8e5c-8888efffc710/playlist.m3u8" data-hls-src="https://video.squarespace-cdn.com/content/v1/679012571a9b3d79fdb90a0a/919248fd-fdbb-4767-8e5c-8888efffc710/playlist.m3u8">
-  <source src="https://video.squarespace-cdn.com/content/v1/679012571a9b3d79fdb90a0a/919248fd-fdbb-4767-8e5c-8888efffc710/playlist.m3u8" type="application/x-mpegURL">
+<video controls playsinline poster="{{ site.baseurl }}/assets/images/097159FB-A6A4-4E1E-ABA2-76BC1847ACB7_1_201_a.jpeg" src="{{ site.baseurl }}/assets/videos/rock-shop-promo.mp4">
+  <source src="{{ site.baseurl }}/assets/videos/rock-shop-promo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 </div>
