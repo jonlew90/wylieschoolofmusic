@@ -27,3 +27,5 @@ Disallow: /admin/*
 User-agent: YandexBot
 Disallow: /admin/
 Disallow: /admin/*
+
+Sitemap: https://jonlew90.github.io/wylieschoolofmusic/sitemap.xml
