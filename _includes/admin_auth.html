@@ -1,0 +1,256 @@
+<!-- Admin Password Gate Modal & Protection -->
+<div id="adminAuthModal" class="admin-auth-overlay" style="display: none;">
+  <div class="admin-auth-box">
+    <div class="admin-auth-icon">🔒</div>
+    <h2 class="admin-auth-title">Admin Access Required</h2>
+    <p class="admin-auth-subtitle">Please enter the administrator password to unlock this page.</p>
+
+    <form id="adminAuthForm" onsubmit="return false;" autocomplete="off">
+      <div class="admin-auth-field">
+        <label for="adminAuthPassword">Password</label>
+        <input 
+          type="password" 
+          id="adminAuthPassword" 
+          class="admin-auth-input" 
+          placeholder="Enter password..." 
+          required 
+          autofocus 
+          autocomplete="current-password"
+        >
+      </div>
+
+      <div id="adminAuthError" class="admin-auth-error" style="display: none;">
+        Incorrect password. Please try again.
+      </div>
+
+      <button type="submit" id="adminAuthSubmit" class="admin-auth-btn">
+        Unlock Portal
+      </button>
+    </form>
+    <div class="admin-auth-footer">
+      <a href="{{ site.baseurl }}/" class="admin-auth-return">&larr; Return to main website</a>
+    </div>
+  </div>
+</div>
+
+<style>
+/* Obscure content while locked */
+body.admin-locked .admin-page-wrapper,
+body.admin-locked .creator-container {
+  display: none !important;
+}
+
+body.admin-locked {
+  background-color: #0f172a !important;
+  overflow: hidden !important;
+}
+
+.admin-auth-overlay {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(15, 23, 42, 0.95);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  z-index: 999999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  box-sizing: border-box;
+}
+
+.admin-auth-box {
+  background: #ffffff;
+  width: 100%;
+  max-width: 420px;
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.35);
+  text-align: center;
+  box-sizing: border-box;
+  animation: authModalFadeIn 0.25s ease-out;
+}
+
+@keyframes authModalFadeIn {
+  from { opacity: 0; transform: scale(0.95) translateY(10px); }
+  to { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+.admin-auth-icon {
+  width: 56px;
+  height: 56px;
+  background: #fef2f2;
+  color: #dc2626;
+  border: 1px solid #fee2e2;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.admin-auth-title {
+  font-family: var(--font-heading, "Space Grotesk", sans-serif);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0 0 0.5rem;
+}
+
+.admin-auth-subtitle {
+  color: #64748b;
+  font-size: 0.9rem;
+  margin: 0 0 1.5rem;
+  line-height: 1.5;
+}
+
+.admin-auth-field {
+  text-align: left;
+  margin-bottom: 1.25rem;
+}
+
+.admin-auth-field label {
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #334155;
+  margin-bottom: 0.35rem;
+}
+
+.admin-auth-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+  box-sizing: border-box;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.admin-auth-input:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+}
+
+.admin-auth-error {
+  color: #dc2626;
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  border-radius: 6px;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.82rem;
+  font-weight: 500;
+  margin-bottom: 1.25rem;
+}
+
+.admin-auth-btn {
+  width: 100%;
+  background: #0f172a;
+  color: #ffffff;
+  padding: 0.85rem 1.25rem;
+  border-radius: 8px;
+  border: none;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.admin-auth-btn:hover {
+  background: #1e293b;
+}
+
+.admin-auth-footer {
+  margin-top: 1.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid #f1f5f9;
+}
+
+.admin-auth-return {
+  color: #64748b !important;
+  text-decoration: none !important;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+.admin-auth-return:hover {
+  color: #0f172a !important;
+}
+</style>
+
+<script>
+(function() {
+  // Target SHA-256 for: "wylie2026!"
+  // Hashed so the raw plaintext password is not exposed in public page source
+  const TARGET_HASH = "ca2e1281dbd92e59baea92429815049b49ab463a562637a77f98980b190f84a4";
+  const STORAGE_KEY = "wsom_admin_auth";
+
+  const modal = document.getElementById("adminAuthModal");
+  const form = document.getElementById("adminAuthForm");
+  const passInput = document.getElementById("adminAuthPassword");
+  const errorMsg = document.getElementById("adminAuthError");
+
+  async function sha256(str) {
+    const buffer = new TextEncoder().encode(str);
+    const hash = await crypto.subtle.digest("SHA-256", buffer);
+    return Array.from(new Uint8Array(hash))
+      .map(b => b.toString(16).padStart(2, "0"))
+      .join("");
+  }
+
+  function checkSession() {
+    try {
+      const stored = sessionStorage.getItem(STORAGE_KEY);
+      if (stored === TARGET_HASH) {
+        unlock();
+        return true;
+      }
+    } catch(e) {}
+    lock();
+    return false;
+  }
+
+  function lock() {
+    document.body.classList.add("admin-locked");
+    if (modal) modal.style.display = "flex";
+    if (passInput) {
+      passInput.value = "";
+      setTimeout(() => passInput.focus(), 50);
+    }
+  }
+
+  function unlock() {
+    document.body.classList.remove("admin-locked");
+    if (modal) modal.style.display = "none";
+  }
+
+  if (form) {
+    form.addEventListener("submit", async function(e) {
+      e.preventDefault();
+      const entered = passInput.value;
+      if (!entered) return;
+
+      const hash = await sha256(entered);
+      if (hash === TARGET_HASH) {
+        try {
+          sessionStorage.setItem(STORAGE_KEY, TARGET_HASH);
+        } catch(e) {}
+        if (errorMsg) errorMsg.style.display = "none";
+        unlock();
+      } else {
+        if (errorMsg) {
+          errorMsg.style.display = "block";
+          passInput.select();
+        }
+      }
+    });
+  }
+
+  // Initial gate check
+  checkSession();
+})();
+</script>
