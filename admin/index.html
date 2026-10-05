@@ -1,0 +1,226 @@
+---
+layout: default
+title: "Admin Portal | Wylie School of Music"
+description: "Internal administrative resources and content creation tools."
+header_theme: "white"
+noindex: true
+---
+
+<style>
+.admin-page-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: calc(var(--header-height, 120px) + 2rem) 1.5rem 5rem;
+  box-sizing: border-box;
+  font-family: var(--font-body, "Poppins", -apple-system, sans-serif);
+  color: #1f2937;
+}
+
+.admin-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 1.5rem;
+}
+
+.admin-badge {
+  display: inline-block;
+  background: #fef2f2;
+  color: #dc2626;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.25rem 0.65rem;
+  border-radius: 9999px;
+  margin-bottom: 0.75rem;
+  border: 1px solid #fecaca;
+}
+
+.admin-title {
+  font-family: var(--font-heading, "Space Grotesk", sans-serif);
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  font-weight: 700;
+  color: #111827;
+  margin: 0 0 0.5rem;
+  letter-spacing: -0.02em;
+}
+
+.admin-subtitle {
+  color: #6b7280;
+  font-size: 1.05rem;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.admin-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.75rem;
+  margin-top: 2rem;
+}
+
+.admin-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  position: relative;
+}
+
+.admin-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.08);
+  border-color: #cbd5e1;
+}
+
+.admin-card-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+  font-size: 1.5rem;
+}
+
+.admin-card-icon.blue { background: #eff6ff; color: #2563eb; }
+.admin-card-icon.amber { background: #fffbeb; color: #d97706; }
+.admin-card-icon.emerald { background: #ecfdf5; color: #059669; }
+
+.admin-card-title {
+  font-family: var(--font-heading, "Space Grotesk", sans-serif);
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #111827;
+  margin: 0 0 0.5rem;
+}
+
+.admin-card-desc {
+  color: #4b5563;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  margin: 0 0 1.5rem;
+  flex-grow: 1;
+}
+
+.admin-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  background: #111827;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  font-weight: 600;
+  font-size: 0.9rem;
+  border-radius: 8px;
+  transition: background 0.2s ease;
+  margin-top: auto;
+}
+
+.admin-btn:hover {
+  background: #374151;
+}
+
+.admin-btn.secondary {
+  background: #f3f4f6;
+  color: #1f2937 !important;
+  border: 1px solid #e5e7eb;
+}
+
+.admin-btn.secondary:hover {
+  background: #e5e7eb;
+}
+
+.admin-info-box {
+  margin-top: 3.5rem;
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1.75rem;
+}
+
+.admin-info-box h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0 0 0.75rem;
+  color: #111827;
+}
+
+.admin-info-box p {
+  color: #4b5563;
+  font-size: 0.92rem;
+  line-height: 1.6;
+  margin: 0 0 0.75rem;
+}
+
+.admin-info-box ul {
+  margin: 0.5rem 0 0 1.25rem;
+  color: #4b5563;
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+</style>
+
+<div class="admin-page-wrapper">
+  <header class="admin-header">
+    <span class="admin-badge">Confidential / Internal</span>
+    <h1 class="admin-title">Admin Portal</h1>
+    <p class="admin-subtitle">Internal content creator and site management tools for Wylie School of Music.</p>
+  </header>
+
+  <div class="admin-grid">
+    <!-- Blog Post Generator Card -->
+    <div class="admin-card">
+      <div class="admin-card-icon blue">📝</div>
+      <h2 class="admin-card-title">New Blog Post Tool</h2>
+      <p class="admin-card-desc">
+        A form and visual helper for creating blog posts. Generates properly formatted Markdown, correct file naming, and provides step-by-step instructions to get posts live in under 2 minutes.
+      </p>
+      <a href="{{ site.baseurl }}/admin/create-post/" class="admin-btn">
+        Launch Post Creator &rarr;
+      </a>
+    </div>
+
+    <!-- Teacher Bios Quick Guide -->
+    <div class="admin-card">
+      <div class="admin-card-icon amber">👥</div>
+      <h2 class="admin-card-title">Teacher Bios Guide</h2>
+      <p class="admin-card-desc">
+        Quick reference instructions on how to edit existing teacher bios, add teacher instruments, or update instructor headshots directly in the repository without breaking layout grids.
+      </p>
+      <a href="https://github.com/jonlew90/wylieschoolofmusic/blob/main/teachers.html" target="_blank" rel="noopener noreferrer" class="admin-btn secondary">
+        Open teachers.html in GitHub ↗
+      </a>
+    </div>
+
+    <!-- Live Site & Repo Management -->
+    <div class="admin-card">
+      <div class="admin-card-icon emerald">🚀</div>
+      <h2 class="admin-card-title">GitHub Repository</h2>
+      <p class="admin-card-desc">
+        Access the root GitHub repository, review live automated build deployments under the GitHub Actions tab, or upload photos to <code>assets/images/</code>.
+      </p>
+      <a href="https://github.com/jonlew90/wylieschoolofmusic" target="_blank" rel="noopener noreferrer" class="admin-btn secondary">
+        Go to GitHub Repo ↗
+      </a>
+    </div>
+  </div>
+
+  <div class="admin-info-box">
+    <h3>🔒 Privacy Notice</h3>
+    <p>
+      This URL is not linked in any public header or footer menus and has automated search engine blocking (<code>noindex, nofollow</code> and <code>robots.txt</code>) enabled so it will not appear on Google search results. Bookmark this page for quick access.
+    </p>
+    <ul>
+      <li><strong>Post Creator:</strong> <code>/admin/create-post/</code></li>
+      <li><strong>Need help?</strong> Changes saved on GitHub's <code>main</code> branch are built automatically by GitHub Pages within ~60 seconds.</li>
+    </ul>
+  </div>
+</div>

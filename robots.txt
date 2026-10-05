@@ -1,0 +1,29 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /admin/*
+Disallow: /admin
+Disallow: /*/admin/*
+
+User-agent: Googlebot
+Disallow: /admin/
+Disallow: /admin/*
+
+User-agent: Bingbot
+Disallow: /admin/
+Disallow: /admin/*
+
+User-agent: Slurp
+Disallow: /admin/
+Disallow: /admin/*
+
+User-agent: DuckDuckBot
+Disallow: /admin/
+Disallow: /admin/*
+
+User-agent: Baiduspider
+Disallow: /admin/
+Disallow: /admin/*
+
+User-agent: YandexBot
+Disallow: /admin/
+Disallow: /admin/*

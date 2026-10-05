@@ -1,0 +1,519 @@
+---
+layout: default
+title: "Create New Blog Post | Admin Tool"
+description: "Generator and instructions for creating new blog posts on Wylie School of Music."
+header_theme: "white"
+noindex: true
+---
+
+<style>
+.creator-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: calc(var(--header-height, 120px) + 1.5rem) 1.5rem 5rem;
+  box-sizing: border-box;
+  font-family: var(--font-body, "Poppins", -apple-system, sans-serif);
+  color: #1f2937;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.9rem;
+  color: #6b7280 !important;
+  text-decoration: none !important;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+.back-link:hover {
+  color: #111827 !important;
+}
+
+.creator-header {
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.creator-header h1 {
+  font-family: var(--font-heading, "Space Grotesk", sans-serif);
+  font-size: clamp(1.85rem, 3.5vw, 2.5rem);
+  color: #111827;
+  margin: 0 0 0.5rem;
+}
+
+.creator-header p {
+  color: #6b7280;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Two Column Layout */
+.creator-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+@media (max-width: 860px) {
+  .creator-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Form Styles */
+.form-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1.75rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.form-group {
+  margin-bottom: 1.35rem;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #374151;
+  margin-bottom: 0.4rem;
+}
+
+.form-group .hint {
+  font-size: 0.8rem;
+  color: #6b7280;
+  margin-top: 0.3rem;
+  display: block;
+}
+
+.input-control {
+  width: 100%;
+  padding: 0.65rem 0.85rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-family: inherit;
+  box-sizing: border-box;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+  background: #ffffff;
+}
+
+.input-control:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+textarea.input-control {
+  resize: vertical;
+  min-height: 140px;
+  font-family: inherit;
+  line-height: 1.55;
+}
+
+/* Output Card */
+.output-card {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1.75rem;
+  position: sticky;
+  top: 100px;
+}
+
+.output-title {
+  font-family: var(--font-heading, "Space Grotesk", sans-serif);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #111827;
+  margin: 0 0 0.5rem;
+}
+
+.file-name-badge {
+  background: #e0f2fe;
+  color: #0369a1;
+  border: 1px solid #bae6fd;
+  border-radius: 6px;
+  padding: 0.5rem 0.75rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.85rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  word-break: break-all;
+}
+
+.code-preview {
+  background: #111827;
+  color: #f3f4f6;
+  border-radius: 8px;
+  padding: 1rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.82rem;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  word-break: break-word;
+  max-height: 380px;
+  overflow-y: auto;
+  margin: 0 0 1rem;
+  border: 1px solid #374151;
+}
+
+.btn-action-row {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.btn-primary-action {
+  flex: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  background: #2563eb;
+  color: #ffffff !important;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.15s ease;
+  text-decoration: none !important;
+}
+.btn-primary-action:hover {
+  background: #1d4ed8;
+}
+
+.btn-secondary-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  background: #ffffff;
+  color: #374151 !important;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+.btn-secondary-action:hover {
+  background: #f3f4f6;
+}
+
+/* Instructions Step-by-Step Section */
+.instructions-section {
+  margin-top: 3.5rem;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 2.25rem;
+}
+
+.instructions-section h2 {
+  font-family: var(--font-heading, "Space Grotesk", sans-serif);
+  font-size: 1.5rem;
+  color: #111827;
+  margin: 0 0 1.5rem;
+}
+
+.step-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  counter-reset: step-counter;
+}
+
+.step-item {
+  position: relative;
+  padding-left: 3.25rem;
+  margin-bottom: 2rem;
+}
+
+.step-item:last-child {
+  margin-bottom: 0;
+}
+
+.step-badge {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2.25rem;
+  height: 2.25rem;
+  background: #eff6ff;
+  color: #2563eb;
+  border: 2px solid #93c5fd;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.step-item h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0 0 0.4rem;
+  color: #111827;
+}
+
+.step-item p {
+  color: #4b5563;
+  margin: 0 0 0.6rem;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.callout-box {
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  color: #166534;
+  font-size: 0.9rem;
+  line-height: 1.55;
+  margin-top: 0.75rem;
+}
+
+.copy-alert {
+  display: none;
+  color: #059669;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+</style>
+
+<div class="creator-container">
+  <a href="{{ site.baseurl }}/admin/" class="back-link">&larr; Back to Admin Portal</a>
+
+  <div class="creator-header">
+    <h1>Create a New Blog Post</h1>
+    <p>Fill out the fields below to automatically generate your post file and code. Follow the steps at the bottom to publish it live.</p>
+  </div>
+
+  <div class="creator-grid">
+    <!-- Input Form -->
+    <div class="form-card">
+      <div class="form-group">
+        <label for="postDate">Publish Date</label>
+        <input type="date" id="postDate" class="input-control">
+        <span class="hint">Defaults to today's date.</span>
+      </div>
+
+      <div class="form-group">
+        <label for="postTitle">Blog Post Title *</label>
+        <input type="text" id="postTitle" class="input-control" placeholder="e.g. 5 Fun Ways to Practice Guitar Every Day">
+        <span class="hint">This appears as the main title on the website.</span>
+      </div>
+
+      <div class="form-group">
+        <label for="postExcerpt">Summary / Preview Excerpt</label>
+        <input type="text" id="postExcerpt" class="input-control" placeholder="e.g. Discover easy, engaging practice habits to keep students motivated...">
+        <span class="hint">1 to 2 sentences that appear on the blog card list.</span>
+      </div>
+
+      <div class="form-group">
+        <label for="postImage">Featured Image Filename (Optional)</label>
+        <input type="text" id="postImage" class="input-control" placeholder="e.g. guitar-practice-tips.jpg">
+        <span class="hint">Upload your photo to <code>assets/images/</code> in GitHub. Leave blank if there's no photo.</span>
+      </div>
+
+      <div class="form-group">
+        <label for="postContent">Article Body (Write your article here)</label>
+        <textarea id="postContent" class="input-control" placeholder="Write your article here. You can write regular paragraphs, or use:&#10;&#10;### Section Heading&#10;To break up topics&#10;&#10;- Bullet point one&#10;- Bullet point two"></textarea>
+        <span class="hint">Standard paragraphs will format cleanly with headings, bullets, and bold text.</span>
+      </div>
+    </div>
+
+    <!-- Generated Code & Output Card -->
+    <div class="output-card">
+      <h2 class="output-title">Your Generated Post File</h2>
+      <p style="font-size: 0.85rem; color: #6b7280; margin: 0 0 0.5rem;">File to create in <code>_posts/</code>:</p>
+      
+      <div class="file-name-badge">
+        <span id="outputFileName">2026-10-05-my-first-post.md</span>
+        <button id="btnCopyFilename" style="background: none; border: none; cursor: pointer; color: #0284c7; font-size: 0.8rem; font-weight: 600; padding: 0;">Copy Name</button>
+      </div>
+
+      <pre class="code-preview" id="codePreview"></pre>
+
+      <div class="btn-action-row">
+        <button id="btnCopyContent" class="btn-primary-action">
+          📋 Copy Post Content
+        </button>
+        <button id="btnDownload" class="btn-secondary-action">
+          💾 Download .md File
+        </button>
+      </div>
+      <div id="copyAlert" class="copy-alert">✓ Copied to clipboard!</div>
+
+      <div style="margin-top: 1.5rem; padding-top: 1.25rem; border-top: 1px solid #e5e7eb;">
+        <a id="btnGitHubLink" href="https://github.com/jonlew90/wylieschoolofmusic/new/main/_posts" target="_blank" rel="noopener noreferrer" class="btn-primary-action" style="background: #111827; width: 100%; box-sizing: border-box;">
+          🚀 Open GitHub & Create File ↗
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Detailed Step-by-Step Instructions -->
+  <div class="instructions-section">
+    <h2>Step-by-Step Instructions: Getting Your Post Live</h2>
+
+    <ol class="step-list">
+      <li class="step-item">
+        <div class="step-badge">1</div>
+        <h3>(Optional) Upload Your Image to GitHub</h3>
+        <p>If your article has a photo, head to the <a href="https://github.com/jonlew90/wylieschoolofmusic/tree/main/assets/images" target="_blank" rel="noopener noreferrer"><code>assets/images/</code> folder on GitHub</a>.</p>
+        <p>Click <strong>Add file</strong> &rarr; <strong>Upload files</strong>, drop your picture (e.g. <code>my-photo.jpg</code>), and click <strong>Commit changes</strong>. Type that exact filename into the form above!</p>
+      </li>
+
+      <li class="step-item">
+        <div class="step-badge">2</div>
+        <h3>Fill out the form & copy your post</h3>
+        <p>Type your title and post text in the form above. The box on the right will instantly generate the exact code and filename.</p>
+        <p>Click the blue <strong>"Copy Post Content"</strong> button.</p>
+      </li>
+
+      <li class="step-item">
+        <div class="step-badge">3</div>
+        <h3>Create the new post file on GitHub</h3>
+        <p>Click the black button <strong>"Open GitHub & Create File"</strong> (or go to <code>_posts/</code> on GitHub and click <strong>Add file &rarr; Create new file</strong>).</p>
+        <p>In the <em>"Name your file..."</em> box at the top, paste the generated filename: <code id="instructionFileName">2026-10-05-my-first-post.md</code>.</p>
+        <p>In the large editing box below, paste the copied post content.</p>
+      </li>
+
+      <li class="step-item">
+        <div class="step-badge">4</div>
+        <h3>Commit changes (Publish)</h3>
+        <p>Click the green <strong>"Commit changes..."</strong> button in the top right of GitHub, and then click <strong>"Commit changes"</strong> in the modal.</p>
+        <div class="callout-box">
+          🎉 <strong>That's it!</strong> GitHub Pages builds the website automatically. Your new post will appear at the top of the <a href="{{ site.baseurl }}/blog/" target="_blank">Blog page</a> within 60 to 90 seconds!
+        </div>
+      </li>
+    </ol>
+  </div>
+</div>
+
+<script>
+(function() {
+  const dateInput = document.getElementById('postDate');
+  const titleInput = document.getElementById('postTitle');
+  const excerptInput = document.getElementById('postExcerpt');
+  const imageInput = document.getElementById('postImage');
+  const contentInput = document.getElementById('postContent');
+  const outputFileName = document.getElementById('outputFileName');
+  const instructionFileName = document.getElementById('instructionFileName');
+  const codePreview = document.getElementById('codePreview');
+  const copyAlert = document.getElementById('copyAlert');
+  const btnCopyContent = document.getElementById('btnCopyContent');
+  const btnCopyFilename = document.getElementById('btnCopyFilename');
+  const btnDownload = document.getElementById('btnDownload');
+  const btnGitHubLink = document.getElementById('btnGitHubLink');
+
+  // Set default date to today in YYYY-MM-DD
+  const today = new Date().toISOString().split('T')[0];
+  dateInput.value = today;
+
+  function slugify(text) {
+    return text.toString().toLowerCase()
+      .trim()
+      .replace(/[\s\W-]+/g, '-')
+      .replace(/^-+|-+$/g, '');
+  }
+
+  function generatePost() {
+    const rawDate = dateInput.value || today;
+    const title = titleInput.value.trim() || 'My New Blog Post';
+    const excerpt = excerptInput.value.trim();
+    let image = imageInput.value.trim();
+    const body = contentInput.value.trim() || 'Write your blog post article here...\n\n### Section 1\nAdd more details and tips here.';
+
+    const slug = slugify(title) || 'new-post';
+    const filename = `${rawDate}-${slug}.md`;
+
+    outputFileName.textContent = filename;
+    instructionFileName.textContent = filename;
+
+    // Set GitHub direct link with prefilled filename
+    const repoNewFileUrl = `https://github.com/jonlew90/wylieschoolofmusic/new/main/_posts?filename=${encodeURIComponent(filename)}`;
+    btnGitHubLink.href = repoNewFileUrl;
+
+    let imageFrontmatter = '';
+    if (image) {
+      if (!image.startsWith('/')) {
+        image = '/assets/images/' + image;
+      }
+      imageFrontmatter = `featured_image: "${image}"\n`;
+    }
+
+    let excerptFrontmatter = '';
+    if (excerpt) {
+      // Escape any quotes
+      const cleanExcerpt = excerpt.replace(/"/g, '\\"');
+      excerptFrontmatter = `excerpt: "${cleanExcerpt}"\n`;
+    }
+
+    const cleanTitle = title.replace(/"/g, '\\"');
+
+    const generatedMarkdown = `---
+layout: post
+title: "${cleanTitle}"
+date: ${rawDate}
+${imageFrontmatter}${excerptFrontmatter}---
+
+${body}
+`;
+
+    codePreview.textContent = generatedMarkdown;
+    return { filename, content: generatedMarkdown };
+  }
+
+  // Update on input changes
+  [dateInput, titleInput, excerptInput, imageInput, contentInput].forEach(el => {
+    el.addEventListener('input', generatePost);
+  });
+
+  generatePost();
+
+  function showCopied() {
+    copyAlert.style.display = 'block';
+    setTimeout(() => {
+      copyAlert.style.display = 'none';
+    }, 2500);
+  }
+
+  btnCopyContent.addEventListener('click', () => {
+    const { content } = generatePost();
+    navigator.clipboard.writeText(content).then(showCopied);
+  });
+
+  btnCopyFilename.addEventListener('click', () => {
+    const { filename } = generatePost();
+    navigator.clipboard.writeText(filename).then(showCopied);
+  });
+
+  btnDownload.addEventListener('click', () => {
+    const { filename, content } = generatePost();
+    const blob = new Blob([content], { type: 'text/markdown;charset=utf-8;' });
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    link.download = filename;
+    link.click();
+  });
+})();
+</script>

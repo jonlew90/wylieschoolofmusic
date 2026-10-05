@@ -2,6 +2,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }} | {{ site.tagline }}{% endif %}</title>
 <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+{% if page.noindex or page.url contains '/admin/' %}
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+{% endif %}
 <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/favicon.ico">
 
